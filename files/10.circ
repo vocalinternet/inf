@@ -314,8 +314,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(910,280)" to="(910,300)"/>
     <wire from="(1090,140)" to="(1090,150)"/>
     <wire from="(1440,250)" to="(1490,250)"/>
-    <wire from="(220,960)" to="(260,960)"/>
     <wire from="(560,1200)" to="(670,1200)"/>
+    <wire from="(220,960)" to="(260,960)"/>
     <wire from="(1670,270)" to="(1670,340)"/>
     <wire from="(1480,330)" to="(1490,330)"/>
     <wire from="(490,2580)" to="(490,2620)"/>
@@ -801,415 +801,228 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1590,110)" to="(1590,340)"/>
     <wire from="(870,740)" to="(870,790)"/>
     <wire from="(580,1530)" to="(590,1530)"/>
-    <comp lib="5" loc="(470,680)" name="LED"/>
-    <comp lib="0" loc="(1620,810)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="width" val="20"/>
-      <a name="label" val="1i"/>
+    <comp lib="6" loc="(182,1825)" name="Text">
+      <a name="text" val="not R"/>
     </comp>
-    <comp lib="0" loc="(730,170)" name="Splitter">
+    <comp lib="5" loc="(1710,90)" name="LED"/>
+    <comp lib="5" loc="(1490,170)" name="LED"/>
+    <comp lib="0" loc="(220,2530)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(180,1116)" name="Text">
+      <a name="text" val="not S"/>
+    </comp>
+    <comp lib="1" loc="(310,2730)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="5" loc="(470,490)" name="LED"/>
+    <comp lib="0" loc="(220,1820)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(1524,153)" name="Text">
+      <a name="text" val="0110"/>
+    </comp>
+    <comp lib="1" loc="(620,1710)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="5" loc="(1490,70)" name="LED"/>
+    <comp lib="0" loc="(1180,440)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="30"/>
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="2"/>
-      <a name="bit11" val="2"/>
-      <a name="bit12" val="2"/>
-      <a name="bit13" val="2"/>
-      <a name="bit14" val="2"/>
-      <a name="bit15" val="3"/>
-      <a name="bit16" val="3"/>
-      <a name="bit17" val="3"/>
-      <a name="bit18" val="3"/>
-      <a name="bit19" val="3"/>
-      <a name="bit20" val="4"/>
-      <a name="bit21" val="4"/>
-      <a name="bit22" val="4"/>
-      <a name="bit23" val="4"/>
-      <a name="bit24" val="4"/>
-      <a name="bit25" val="5"/>
-      <a name="bit26" val="5"/>
-      <a name="bit27" val="5"/>
-      <a name="bit28" val="5"/>
-      <a name="bit29" val="5"/>
+      <a name="width" val="20"/>
+      <a name="label" val="4i"/>
     </comp>
-    <comp lib="5" loc="(760,140)" name="DotMatrix">
+    <comp lib="6" loc="(86,45)" name="Text">
+      <a name="text" val="Группа"/>
+      <a name="font" val="Times New Roman bold 44"/>
+    </comp>
+    <comp lib="1" loc="(620,1800)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(160,140)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="30"/>
+      <a name="label" val="16"/>
+    </comp>
+    <comp lib="0" loc="(1290,730)" name="Tunnel">
+      <a name="width" val="30"/>
+      <a name="label" val="12"/>
+    </comp>
+    <comp lib="5" loc="(70,110)" name="DotMatrix">
       <a name="matrixcols" val="6"/>
       <a name="matrixrows" val="5"/>
       <a name="offcolor" val="#000000"/>
     </comp>
-    <comp lib="5" loc="(1140,310)" name="Hex Digit Display"/>
-    <comp lib="1" loc="(560,2620)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
+    <comp lib="0" loc="(540,260)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="16"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="2"/>
+      <a name="bit9" val="2"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="2"/>
+      <a name="bit12" val="3"/>
+      <a name="bit13" val="3"/>
+      <a name="bit14" val="3"/>
+      <a name="bit15" val="3"/>
+    </comp>
+    <comp lib="6" loc="(1527,296)" name="Text">
+      <a name="text" val="1101"/>
+    </comp>
+    <comp lib="0" loc="(1680,830)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="20"/>
+      <a name="label" val="6i"/>
+    </comp>
+    <comp lib="0" loc="(1230,740)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="30"/>
+      <a name="label" val="20"/>
+    </comp>
+    <comp lib="6" loc="(1516,426)" name="Text">
+      <a name="text" val="0000"/>
+    </comp>
+    <comp lib="5" loc="(880,140)" name="DotMatrix">
+      <a name="matrixcols" val="6"/>
+      <a name="matrixrows" val="5"/>
+      <a name="offcolor" val="#000000"/>
+    </comp>
+    <comp lib="0" loc="(220,1500)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="5" loc="(1490,230)" name="LED"/>
+    <comp lib="6" loc="(185,1506)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="6" loc="(186,1755)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="6" loc="(1736,724)" name="Text">
+      <a name="text" val="1111"/>
     </comp>
     <comp lib="5" loc="(1280,410)" name="DotMatrix">
       <a name="matrixcols" val="4"/>
       <a name="matrixrows" val="5"/>
       <a name="offcolor" val="#000000"/>
     </comp>
-    <comp lib="0" loc="(1610,820)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="3"/>
-      <a name="label" val="co"/>
-    </comp>
-    <comp lib="6" loc="(1413,15)" name="Text">
-      <a name="text" val="Ошибки в F3"/>
-      <a name="font" val="SansSerif bold 14"/>
-    </comp>
-    <comp lib="6" loc="(1525,175)" name="Text">
-      <a name="text" val="0111"/>
-    </comp>
-    <comp lib="0" loc="(540,260)" name="Tunnel">
-      <a name="facing" val="east"/>
+    <comp lib="0" loc="(1150,500)" name="Tunnel">
+      <a name="facing" val="south"/>
       <a name="width" val="16"/>
-      <a name="label" val="d3"/>
+      <a name="label" val="e4"/>
     </comp>
-    <comp lib="5" loc="(1150,140)" name="DotMatrix">
+    <comp lib="6" loc="(1514,504)" name="Text">
+      <a name="text" val="0100"/>
+    </comp>
+    <comp lib="5" loc="(1000,140)" name="DotMatrix">
       <a name="matrixcols" val="6"/>
       <a name="matrixrows" val="5"/>
       <a name="offcolor" val="#000000"/>
     </comp>
-    <comp lib="0" loc="(870,790)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="e5"/>
+    <comp lib="5" loc="(720,1710)" name="LED"/>
+    <comp lib="0" loc="(220,600)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
-    <comp lib="6" loc="(1255,272)" name="Text">
-      <a name="text" val="1 - вычитание"/>
-      <a name="font" val="SansSerif bold 12"/>
+    <comp lib="5" loc="(310,110)" name="DotMatrix">
+      <a name="matrixcols" val="6"/>
+      <a name="matrixrows" val="5"/>
+      <a name="offcolor" val="#000000"/>
     </comp>
-    <comp lib="6" loc="(1526,334)" name="Text">
+    <comp lib="5" loc="(980,670)" name="Button">
+      <a name="labelloc" val="west"/>
+    </comp>
+    <comp lib="6" loc="(1517,724)" name="Text">
       <a name="text" val="1111"/>
     </comp>
-    <comp lib="0" loc="(1010,740)" name="Tunnel">
+    <comp lib="0" loc="(970,170)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="30"/>
+      <a name="label" val="10"/>
+    </comp>
+    <comp lib="0" loc="(1060,440)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="20"/>
+      <a name="label" val="7i"/>
+    </comp>
+    <comp lib="0" loc="(340,140)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="30"/>
+      <a name="label" val="19"/>
+    </comp>
+    <comp lib="0" loc="(1090,740)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="width" val="4"/>
-      <a name="label" val="S2"/>
+      <a name="label" val="n1"/>
     </comp>
-    <comp lib="6" loc="(1736,446)" name="Text">
-      <a name="text" val="0001"/>
-    </comp>
-    <comp lib="1" loc="(610,2250)" name="NAND Gate">
+    <comp lib="1" loc="(310,2610)" name="NAND Gate">
       <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="5" loc="(1480,540)" name="LED"/>
+    <comp lib="6" loc="(1733,504)" name="Text">
+      <a name="text" val="0100"/>
+    </comp>
+    <comp lib="1" loc="(490,1150)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(182,2175)" name="Text">
+      <a name="text" val="not S"/>
+    </comp>
+    <comp lib="1" loc="(650,1440)" name="NAND Gate">
       <a name="inputs" val="2"/>
     </comp>
     <comp lib="1" loc="(620,1960)" name="NOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(1290,630)" name="Tunnel">
-      <a name="width" val="30"/>
-      <a name="label" val="7"/>
-    </comp>
-    <comp lib="6" loc="(1515,543)" name="Text">
-      <a name="text" val="0110"/>
-    </comp>
-    <comp lib="1" loc="(340,490)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(220,860)" name="Constant"/>
-    <comp lib="0" loc="(1190,740)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="30"/>
-      <a name="label" val="18"/>
-    </comp>
-    <comp lib="5" loc="(980,700)" name="Button">
-      <a name="labelloc" val="west"/>
-    </comp>
-    <comp lib="1" loc="(620,1800)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="5" loc="(1260,60)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(750,2610)" name="LED"/>
-    <comp lib="6" loc="(1075,226)" name="Text">
-      <a name="text" val="CNT:"/>
-      <a name="font" val="SansSerif bold 28"/>
-    </comp>
-    <comp lib="0" loc="(1260,170)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="30"/>
-      <a name="label" val="14"/>
-    </comp>
-    <comp lib="6" loc="(1517,665)" name="Text">
-      <a name="text" val="1100"/>
-    </comp>
-    <comp lib="5" loc="(130,280)" name="Hex Digit Display"/>
-    <comp lib="6" loc="(1518,686)" name="Text">
-      <a name="text" val="1101"/>
-    </comp>
-    <comp lib="6" loc="(33,223)" name="Text">
-      <a name="text" val="F1:"/>
-      <a name="font" val="SansSerif bold 26"/>
-    </comp>
-    <comp lib="0" loc="(90,350)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="4"/>
-      <a name="appear" val="center"/>
-    </comp>
-    <comp lib="0" loc="(1290,550)" name="Tunnel">
-      <a name="width" val="30"/>
-      <a name="label" val="3"/>
-    </comp>
-    <comp lib="0" loc="(550,170)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="30"/>
-      <a name="label" val="3"/>
-    </comp>
-    <comp lib="0" loc="(280,260)" name="Splitter">
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="16"/>
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="1"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="2"/>
-      <a name="bit9" val="2"/>
-      <a name="bit10" val="2"/>
-      <a name="bit11" val="2"/>
-      <a name="bit12" val="3"/>
-      <a name="bit13" val="3"/>
-      <a name="bit14" val="3"/>
-      <a name="bit15" val="3"/>
-    </comp>
-    <comp lib="0" loc="(910,170)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="30"/>
-      <a name="label" val="9"/>
-    </comp>
-    <comp lib="5" loc="(130,110)" name="DotMatrix">
-      <a name="matrixcols" val="6"/>
-      <a name="matrixrows" val="5"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="0" loc="(1180,60)" name="Tunnel">
+    <comp lib="0" loc="(1100,310)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="width" val="4"/>
-      <a name="label" val="n2"/>
+      <a name="label" val="S2"/>
     </comp>
-    <comp lib="5" loc="(720,1710)" name="LED"/>
-    <comp lib="0" loc="(970,170)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="30"/>
-      <a name="label" val="10"/>
+    <comp lib="0" loc="(220,1030)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
-    <comp lib="5" loc="(470,580)" name="LED"/>
-    <comp lib="0" loc="(1210,740)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="30"/>
-      <a name="label" val="19"/>
-    </comp>
-    <comp lib="5" loc="(1700,580)" name="LED"/>
-    <comp lib="5" loc="(1700,660)" name="LED"/>
-    <comp lib="5" loc="(1100,310)" name="Hex Digit Display"/>
-    <comp lib="0" loc="(1180,170)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="30"/>
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="2"/>
-      <a name="bit11" val="2"/>
-      <a name="bit12" val="2"/>
-      <a name="bit13" val="2"/>
-      <a name="bit14" val="2"/>
-      <a name="bit15" val="3"/>
-      <a name="bit16" val="3"/>
-      <a name="bit17" val="3"/>
-      <a name="bit18" val="3"/>
-      <a name="bit19" val="3"/>
-      <a name="bit20" val="4"/>
-      <a name="bit21" val="4"/>
-      <a name="bit22" val="4"/>
-      <a name="bit23" val="4"/>
-      <a name="bit24" val="4"/>
-      <a name="bit25" val="5"/>
-      <a name="bit26" val="5"/>
-      <a name="bit27" val="5"/>
-      <a name="bit28" val="5"/>
-      <a name="bit29" val="5"/>
-    </comp>
-    <comp lib="5" loc="(980,670)" name="Button">
-      <a name="labelloc" val="west"/>
-    </comp>
-    <comp lib="6" loc="(1746,210)" name="Text">
-      <a name="text" val="1001"/>
-    </comp>
-    <comp lib="0" loc="(220,790)" name="Constant"/>
-    <comp lib="5" loc="(1710,130)" name="LED"/>
-    <comp lib="0" loc="(1220,60)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="4"/>
-      <a name="label" val="n1"/>
-    </comp>
-    <comp lib="5" loc="(1700,560)" name="LED"/>
-    <comp lib="6" loc="(1516,426)" name="Text">
-      <a name="text" val="0000"/>
-    </comp>
-    <comp lib="0" loc="(1090,170)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="30"/>
-      <a name="label" val="12"/>
-    </comp>
-    <comp lib="5" loc="(1480,480)" name="LED"/>
-    <comp lib="0" loc="(800,260)" name="Splitter">
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="16"/>
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="1"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="2"/>
-      <a name="bit9" val="2"/>
-      <a name="bit10" val="2"/>
-      <a name="bit11" val="2"/>
-      <a name="bit12" val="3"/>
-      <a name="bit13" val="3"/>
-      <a name="bit14" val="3"/>
-      <a name="bit15" val="3"/>
-    </comp>
-    <comp lib="6" loc="(1517,724)" name="Text">
-      <a name="text" val="1111"/>
-    </comp>
-    <comp lib="5" loc="(1480,420)" name="LED"/>
-    <comp lib="0" loc="(910,170)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="30"/>
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="2"/>
-      <a name="bit11" val="2"/>
-      <a name="bit12" val="2"/>
-      <a name="bit13" val="2"/>
-      <a name="bit14" val="2"/>
-      <a name="bit15" val="3"/>
-      <a name="bit16" val="3"/>
-      <a name="bit17" val="3"/>
-      <a name="bit18" val="3"/>
-      <a name="bit19" val="3"/>
-      <a name="bit20" val="4"/>
-      <a name="bit21" val="4"/>
-      <a name="bit22" val="4"/>
-      <a name="bit23" val="4"/>
-      <a name="bit24" val="4"/>
-      <a name="bit25" val="5"/>
-      <a name="bit26" val="5"/>
-      <a name="bit27" val="5"/>
-      <a name="bit28" val="5"/>
-      <a name="bit29" val="5"/>
-    </comp>
-    <comp lib="6" loc="(1747,92)" name="Text">
-      <a name="text" val="0011"/>
-    </comp>
-    <comp lib="6" loc="(1736,665)" name="Text">
-      <a name="text" val="1100"/>
-    </comp>
-    <comp lib="5" loc="(90,280)" name="Hex Digit Display"/>
-    <comp lib="0" loc="(1030,500)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="c"/>
-    </comp>
-    <comp lib="8" loc="(1680,820)" name="main"/>
-    <comp lib="0" loc="(850,170)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="30"/>
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="2"/>
-      <a name="bit11" val="2"/>
-      <a name="bit12" val="2"/>
-      <a name="bit13" val="2"/>
-      <a name="bit14" val="2"/>
-      <a name="bit15" val="3"/>
-      <a name="bit16" val="3"/>
-      <a name="bit17" val="3"/>
-      <a name="bit18" val="3"/>
-      <a name="bit19" val="3"/>
-      <a name="bit20" val="4"/>
-      <a name="bit21" val="4"/>
-      <a name="bit22" val="4"/>
-      <a name="bit23" val="4"/>
-      <a name="bit24" val="4"/>
-      <a name="bit25" val="5"/>
-      <a name="bit26" val="5"/>
-      <a name="bit27" val="5"/>
-      <a name="bit28" val="5"/>
-      <a name="bit29" val="5"/>
-    </comp>
-    <comp lib="0" loc="(1290,650)" name="Tunnel">
-      <a name="width" val="30"/>
-      <a name="label" val="8"/>
-    </comp>
-    <comp lib="6" loc="(1141,243)" name="Text">
-      <a name="text" val="Шаг"/>
-      <a name="font" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="0" loc="(1130,500)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="width" val="16"/>
-      <a name="label" val="e3"/>
-    </comp>
-    <comp lib="0" loc="(1050,500)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="width" val="4"/>
-      <a name="label" val="S1"/>
-    </comp>
-    <comp lib="5" loc="(1040,410)" name="DotMatrix">
+    <comp lib="5" loc="(1240,410)" name="DotMatrix">
       <a name="matrixcols" val="4"/>
       <a name="matrixrows" val="5"/>
       <a name="offcolor" val="#000000"/>
     </comp>
-    <comp lib="5" loc="(1700,700)" name="LED"/>
-    <comp lib="0" loc="(1300,440)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="20"/>
-      <a name="label" val="1i"/>
+    <comp lib="6" loc="(1747,92)" name="Text">
+      <a name="text" val="0011"/>
     </comp>
-    <comp lib="0" loc="(1060,440)" name="Splitter">
+    <comp lib="5" loc="(170,280)" name="Hex Digit Display"/>
+    <comp lib="0" loc="(1640,810)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="width" val="20"/>
+      <a name="label" val="2i"/>
+    </comp>
+    <comp lib="6" loc="(112,366)" name="Text"/>
+    <comp lib="6" loc="(184,965)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="6" loc="(1063,242)" name="Text">
+      <a name="text" val="Напр."/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(186,1145)" name="Text">
+      <a name="text" val="S"/>
+    </comp>
+    <comp lib="1" loc="(490,1700)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="5" loc="(1700,460)" name="LED"/>
+    <comp lib="0" loc="(1100,440)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="20"/>
@@ -1234,31 +1047,42 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit18" val="3"/>
       <a name="bit19" val="3"/>
     </comp>
-    <comp lib="1" loc="(310,2610)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(610,170)" name="Tunnel">
+    <comp lib="0" loc="(1130,740)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="width" val="30"/>
-      <a name="label" val="4"/>
+      <a name="label" val="15"/>
     </comp>
-    <comp lib="5" loc="(1480,500)" name="LED"/>
+    <comp lib="6" loc="(1141,243)" name="Text">
+      <a name="text" val="Шаг"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
     <comp lib="1" loc="(500,1440)" name="NAND Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(1030,740)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="4"/>
-      <a name="label" val="S3"/>
+    <comp lib="6" loc="(1526,314)" name="Text">
+      <a name="text" val="1110"/>
     </comp>
-    <comp lib="5" loc="(1490,50)" name="LED"/>
-    <comp lib="6" loc="(1623,405)" name="Text">
-      <a name="text" val="Ошибки в  F2"/>
-      <a name="font" val="SansSerif bold 14"/>
+    <comp lib="1" loc="(340,680)" name="NOR Gate">
+      <a name="inputs" val="2"/>
     </comp>
-    <comp lib="5" loc="(690,280)" name="Hex Digit Display"/>
-    <comp lib="0" loc="(790,170)" name="Splitter">
+    <comp lib="6" loc="(184,2073)" name="Text">
+      <a name="text" val="not R"/>
+    </comp>
+    <comp lib="5" loc="(870,740)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="label" val="Ошибочный код"/>
+      <a name="labelloc" val="west"/>
+    </comp>
+    <comp lib="1" loc="(350,1810)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="5" loc="(1040,410)" name="DotMatrix">
+      <a name="matrixcols" val="4"/>
+      <a name="matrixrows" val="5"/>
+      <a name="offcolor" val="#000000"/>
+    </comp>
+    <comp lib="0" loc="(1030,170)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="6"/>
       <a name="incoming" val="30"/>
@@ -1293,32 +1117,58 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit28" val="5"/>
       <a name="bit29" val="5"/>
     </comp>
-    <comp lib="6" loc="(1514,624)" name="Text">
-      <a name="text" val="1010"/>
-    </comp>
-    <comp lib="1" loc="(350,1810)" name="NAND Gate">
+    <comp lib="1" loc="(780,1230)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="6" loc="(1516,465)" name="Text">
-      <a name="text" val="0010"/>
+    <comp lib="6" loc="(865,1444)" name="Text">
+      <a name="text" val="Q"/>
     </comp>
-    <comp lib="6" loc="(1746,130)" name="Text">
-      <a name="text" val="0101"/>
+    <comp lib="5" loc="(1700,440)" name="LED"/>
+    <comp lib="0" loc="(220,1250)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
-    <comp lib="5" loc="(1480,520)" name="LED"/>
-    <comp lib="0" loc="(1250,740)" name="Tunnel">
+    <comp lib="6" loc="(1517,446)" name="Text">
+      <a name="text" val="0001"/>
+    </comp>
+    <comp lib="6" loc="(512,774)" name="Text">
+      <a name="text" val="not Q"/>
+    </comp>
+    <comp lib="0" loc="(490,170)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="width" val="30"/>
-      <a name="label" val="14"/>
+      <a name="label" val="2"/>
     </comp>
-    <comp lib="6" loc="(1747,172)" name="Text">
-      <a name="text" val="0111"/>
+    <comp lib="6" loc="(1746,250)" name="Text">
+      <a name="text" val="1011"/>
     </comp>
-    <comp lib="1" loc="(390,2240)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
+    <comp lib="5" loc="(1700,620)" name="LED"/>
+    <comp lib="5" loc="(950,280)" name="Hex Digit Display"/>
+    <comp lib="6" loc="(1735,465)" name="Text">
+      <a name="text" val="0010"/>
     </comp>
+    <comp lib="5" loc="(1030,1160)" name="LED"/>
+    <comp lib="0" loc="(20,260)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="16"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="2"/>
+      <a name="bit9" val="2"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="2"/>
+      <a name="bit12" val="3"/>
+      <a name="bit13" val="3"/>
+      <a name="bit14" val="3"/>
+      <a name="bit15" val="3"/>
+    </comp>
+    <comp lib="5" loc="(1480,500)" name="LED"/>
     <comp lib="0" loc="(980,800)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="5"/>
@@ -1343,67 +1193,37 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit18" val="4"/>
       <a name="bit19" val="4"/>
     </comp>
-    <comp lib="1" loc="(390,2320)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
+    <comp lib="6" loc="(1515,643)" name="Text">
+      <a name="text" val="1011"/>
     </comp>
-    <comp lib="0" loc="(1660,830)" name="Tunnel">
+    <comp lib="0" loc="(730,170)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="width" val="20"/>
-      <a name="label" val="7i"/>
+      <a name="width" val="30"/>
+      <a name="label" val="6"/>
     </comp>
-    <comp lib="0" loc="(970,740)" name="Constant">
+    <comp lib="0" loc="(220,860)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="5" loc="(1260,60)" name="Hex Digit Display"/>
+    <comp lib="5" loc="(650,280)" name="Hex Digit Display"/>
+    <comp lib="0" loc="(1170,500)" name="Tunnel">
       <a name="facing" val="south"/>
-      <a name="width" val="4"/>
-      <a name="value" val="0x0"/>
+      <a name="width" val="3"/>
+      <a name="label" val="co"/>
     </comp>
-    <comp lib="0" loc="(1290,530)" name="Tunnel">
-      <a name="width" val="30"/>
-      <a name="label" val="2"/>
+    <comp lib="5" loc="(820,140)" name="DotMatrix">
+      <a name="matrixcols" val="6"/>
+      <a name="matrixrows" val="5"/>
+      <a name="offcolor" val="#000000"/>
     </comp>
-    <comp lib="0" loc="(1130,740)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="30"/>
-      <a name="label" val="15"/>
-    </comp>
-    <comp lib="1" loc="(720,2250)" name="NAND Gate">
+    <comp lib="1" loc="(500,2320)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="6" loc="(1745,231)" name="Text">
-      <a name="text" val="1010"/>
+    <comp lib="6" loc="(180,2535)" name="Text">
+      <a name="text" val="not S"/>
     </comp>
-    <comp lib="5" loc="(1710,90)" name="LED"/>
-    <comp lib="5" loc="(1710,310)" name="LED"/>
-    <comp lib="5" loc="(1480,600)" name="LED"/>
-    <comp lib="6" loc="(157,190)" name="Text">
-      <a name="text" val="Исходные данные:"/>
-      <a name="font" val="Times New Roman bold 36"/>
-    </comp>
-    <comp lib="5" loc="(720,1800)" name="LED"/>
-    <comp lib="0" loc="(220,1250)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="1" loc="(350,1700)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(1210,500)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="width" val="16"/>
-      <a name="label" val="d1"/>
-    </comp>
-    <comp lib="5" loc="(1100,60)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(1710,30)" name="LED"/>
-    <comp lib="5" loc="(650,280)" name="Hex Digit Display"/>
-    <comp lib="6" loc="(50,358)" name="Text"/>
-    <comp lib="5" loc="(800,2310)" name="LED"/>
-    <comp lib="0" loc="(1230,500)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="width" val="16"/>
-      <a name="label" val="d2"/>
-    </comp>
-    <comp lib="0" loc="(220,140)" name="Splitter">
+    <comp lib="0" loc="(340,140)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="6"/>
       <a name="incoming" val="30"/>
@@ -1438,630 +1258,85 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit28" val="5"/>
       <a name="bit29" val="5"/>
     </comp>
-    <comp lib="6" loc="(485,45)" name="Text">
-      <a name="text" val="Студент"/>
-      <a name="font" val="Times New Roman bold 44"/>
+    <comp lib="6" loc="(184,865)" name="Text">
+      <a name="text" val="S"/>
     </comp>
-    <comp lib="6" loc="(1735,565)" name="Text">
-      <a name="text" val="0111"/>
-    </comp>
-    <comp lib="5" loc="(1060,140)" name="DotMatrix">
-      <a name="matrixcols" val="6"/>
-      <a name="matrixrows" val="5"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="0" loc="(220,1190)" name="Constant"/>
-    <comp lib="5" loc="(1080,410)" name="DotMatrix">
-      <a name="matrixcols" val="4"/>
-      <a name="matrixrows" val="5"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="0" loc="(790,170)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="30"/>
-      <a name="label" val="7"/>
-    </comp>
-    <comp lib="0" loc="(1190,500)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="width" val="4"/>
-      <a name="label" val="Fi"/>
-    </comp>
-    <comp lib="5" loc="(470,770)" name="LED"/>
-    <comp lib="6" loc="(1749,293)" name="Text">
-      <a name="text" val="1101"/>
-    </comp>
-    <comp lib="0" loc="(1150,500)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="width" val="16"/>
-      <a name="label" val="e4"/>
-    </comp>
-    <comp lib="1" loc="(480,900)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="5" loc="(1710,150)" name="LED"/>
-    <comp lib="0" loc="(220,960)" name="Constant"/>
-    <comp lib="6" loc="(1236,255)" name="Text">
-      <a name="text" val="Напр.: 0 - сложение"/>
-      <a name="font" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="0" loc="(220,2070)" name="Constant"/>
-    <comp lib="0" loc="(1180,440)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="20"/>
-      <a name="label" val="4i"/>
-    </comp>
-    <comp lib="5" loc="(1490,150)" name="LED"/>
-    <comp lib="0" loc="(220,1030)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(670,170)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="30"/>
-      <a name="label" val="5"/>
-    </comp>
-    <comp lib="0" loc="(1020,440)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="20"/>
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="2"/>
-      <a name="bit11" val="2"/>
-      <a name="bit12" val="2"/>
-      <a name="bit13" val="2"/>
-      <a name="bit14" val="2"/>
-      <a name="bit15" val="3"/>
-      <a name="bit16" val="3"/>
-      <a name="bit17" val="3"/>
-      <a name="bit18" val="3"/>
-      <a name="bit19" val="3"/>
-    </comp>
-    <comp lib="7" loc="(1180,520)" name="main"/>
-    <comp lib="5" loc="(1710,290)" name="LED"/>
-    <comp lib="1" loc="(670,2610)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(1620,750)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="16"/>
-      <a name="incoming" val="16"/>
-      <a name="appear" val="center"/>
-    </comp>
-    <comp lib="6" loc="(1298,149)" name="Text">
-      <a name="text" val="."/>
-      <a name="font" val="SansSerif plain 64"/>
-    </comp>
-    <comp lib="5" loc="(1230,140)" name="DotMatrix">
-      <a name="matrixcols" val="6"/>
-      <a name="matrixrows" val="5"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="1" loc="(620,2050)" name="NOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="5" loc="(210,280)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(430,280)" name="Hex Digit Display"/>
-    <comp lib="0" loc="(220,2170)" name="Constant"/>
-    <comp lib="5" loc="(870,740)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="label" val="Ошибочный код"/>
-      <a name="labelloc" val="west"/>
-    </comp>
-    <comp lib="1" loc="(490,2060)" name="NOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="6" loc="(1734,523)" name="Text">
+    <comp lib="6" loc="(1524,133)" name="Text">
       <a name="text" val="0101"/>
     </comp>
-    <comp lib="6" loc="(1524,213)" name="Text">
-      <a name="text" val="1001"/>
+    <comp lib="0" loc="(1180,170)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="30"/>
+      <a name="label" val="13"/>
     </comp>
-    <comp lib="0" loc="(20,260)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="16"/>
-      <a name="label" val="d1"/>
+    <comp lib="6" loc="(185,1196)" name="Text">
+      <a name="text" val="C"/>
     </comp>
-    <comp lib="1" loc="(780,1160)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
+    <comp lib="6" loc="(307,485)" name="Text"/>
+    <comp lib="5" loc="(1700,560)" name="LED"/>
+    <comp lib="6" loc="(1515,523)" name="Text">
+      <a name="text" val="0101"/>
     </comp>
-    <comp lib="6" loc="(1526,314)" name="Text">
+    <comp lib="6" loc="(1517,704)" name="Text">
       <a name="text" val="1110"/>
     </comp>
-    <comp lib="0" loc="(1180,440)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="20"/>
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="2"/>
-      <a name="bit11" val="2"/>
-      <a name="bit12" val="2"/>
-      <a name="bit13" val="2"/>
-      <a name="bit14" val="2"/>
-      <a name="bit15" val="3"/>
-      <a name="bit16" val="3"/>
-      <a name="bit17" val="3"/>
-      <a name="bit18" val="3"/>
-      <a name="bit19" val="3"/>
-    </comp>
-    <comp lib="6" loc="(1524,153)" name="Text">
-      <a name="text" val="0110"/>
-    </comp>
-    <comp lib="5" loc="(1480,680)" name="LED"/>
-    <comp lib="0" loc="(1070,740)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="4"/>
-      <a name="label" val="n3"/>
-    </comp>
-    <comp lib="0" loc="(1110,740)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="4"/>
-      <a name="label" val="n0"/>
-    </comp>
-    <comp lib="5" loc="(1710,210)" name="LED"/>
-    <comp lib="1" loc="(490,1950)" name="NOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="5" loc="(1160,410)" name="DotMatrix">
-      <a name="matrixcols" val="4"/>
-      <a name="matrixrows" val="5"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(550,1010)" name="LED"/>
-    <comp lib="0" loc="(1150,740)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="30"/>
-      <a name="label" val="16"/>
-    </comp>
-    <comp lib="1" loc="(650,1550)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(1140,60)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="4"/>
-      <a name="label" val="n3"/>
-    </comp>
-    <comp lib="0" loc="(1100,60)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="4"/>
-      <a name="label" val="n4"/>
-    </comp>
-    <comp lib="0" loc="(1410,360)" name="Tunnel">
-      <a name="facing" val="north"/>
+    <comp lib="0" loc="(540,260)" name="Tunnel">
+      <a name="facing" val="east"/>
       <a name="width" val="16"/>
-      <a name="label" val="e3"/>
-    </comp>
-    <comp lib="1" loc="(350,2060)" name="NOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="5" loc="(520,140)" name="DotMatrix">
-      <a name="matrixcols" val="6"/>
-      <a name="matrixrows" val="5"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(1710,330)" name="LED"/>
-    <comp lib="5" loc="(1490,190)" name="LED"/>
-    <comp lib="1" loc="(340,880)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(340,580)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(220,470)" name="Constant"/>
-    <comp lib="6" loc="(938,45)" name="Text">
-      <a name="text" val="Личный код:"/>
-      <a name="font" val="Times New Roman bold 44"/>
-    </comp>
-    <comp lib="0" loc="(280,140)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="30"/>
-      <a name="label" val="18"/>
-    </comp>
-    <comp lib="0" loc="(160,140)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="30"/>
-      <a name="label" val="16"/>
-    </comp>
-    <comp lib="6" loc="(293,223)" name="Text">
-      <a name="text" val="F2:"/>
-      <a name="font" val="SansSerif bold 26"/>
-    </comp>
-    <comp lib="6" loc="(1734,643)" name="Text">
-      <a name="text" val="1011"/>
-    </comp>
-    <comp lib="0" loc="(1020,440)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="20"/>
-      <a name="label" val="8i"/>
-    </comp>
-    <comp lib="6" loc="(1515,603)" name="Text">
-      <a name="text" val="1001"/>
-    </comp>
-    <comp lib="6" loc="(1524,253)" name="Text">
-      <a name="text" val="1011"/>
-    </comp>
-    <comp lib="5" loc="(470,490)" name="LED"/>
-    <comp lib="5" loc="(1490,290)" name="LED"/>
-    <comp lib="0" loc="(1270,500)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="width" val="16"/>
-      <a name="label" val="d4"/>
-    </comp>
-    <comp lib="0" loc="(670,170)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="30"/>
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="2"/>
-      <a name="bit11" val="2"/>
-      <a name="bit12" val="2"/>
-      <a name="bit13" val="2"/>
-      <a name="bit14" val="2"/>
-      <a name="bit15" val="3"/>
-      <a name="bit16" val="3"/>
-      <a name="bit17" val="3"/>
-      <a name="bit18" val="3"/>
-      <a name="bit19" val="3"/>
-      <a name="bit20" val="4"/>
-      <a name="bit21" val="4"/>
-      <a name="bit22" val="4"/>
-      <a name="bit23" val="4"/>
-      <a name="bit24" val="4"/>
-      <a name="bit25" val="5"/>
-      <a name="bit26" val="5"/>
-      <a name="bit27" val="5"/>
-      <a name="bit28" val="5"/>
-      <a name="bit29" val="5"/>
-    </comp>
-    <comp lib="0" loc="(20,260)" name="Splitter">
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="16"/>
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="1"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="2"/>
-      <a name="bit9" val="2"/>
-      <a name="bit10" val="2"/>
-      <a name="bit11" val="2"/>
-      <a name="bit12" val="3"/>
-      <a name="bit13" val="3"/>
-      <a name="bit14" val="3"/>
-      <a name="bit15" val="3"/>
-    </comp>
-    <comp lib="0" loc="(220,1940)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(1680,830)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="20"/>
-      <a name="label" val="6i"/>
-    </comp>
-    <comp lib="5" loc="(1710,190)" name="LED"/>
-    <comp lib="5" loc="(1700,460)" name="LED"/>
-    <comp lib="0" loc="(430,170)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="30"/>
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="2"/>
-      <a name="bit11" val="2"/>
-      <a name="bit12" val="2"/>
-      <a name="bit13" val="2"/>
-      <a name="bit14" val="2"/>
-      <a name="bit15" val="3"/>
-      <a name="bit16" val="3"/>
-      <a name="bit17" val="3"/>
-      <a name="bit18" val="3"/>
-      <a name="bit19" val="3"/>
-      <a name="bit20" val="4"/>
-      <a name="bit21" val="4"/>
-      <a name="bit22" val="4"/>
-      <a name="bit23" val="4"/>
-      <a name="bit24" val="4"/>
-      <a name="bit25" val="5"/>
-      <a name="bit26" val="5"/>
-      <a name="bit27" val="5"/>
-      <a name="bit28" val="5"/>
-      <a name="bit29" val="5"/>
-    </comp>
-    <comp lib="5" loc="(1490,30)" name="LED"/>
-    <comp lib="0" loc="(1140,440)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="20"/>
-      <a name="label" val="5i"/>
-    </comp>
-    <comp lib="6" loc="(1735,426)" name="Text">
-      <a name="text" val="0000"/>
-    </comp>
-    <comp lib="1" loc="(340,770)" name="NOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(220,2800)" name="Constant"/>
-    <comp lib="5" loc="(1200,410)" name="DotMatrix">
-      <a name="matrixcols" val="4"/>
-      <a name="matrixrows" val="5"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="0" loc="(220,1820)" name="Constant"/>
-    <comp lib="0" loc="(1290,670)" name="Tunnel">
-      <a name="width" val="30"/>
-      <a name="label" val="9"/>
+      <a name="label" val="d3"/>
     </comp>
     <comp lib="0" loc="(950,740)" name="Constant">
       <a name="facing" val="south"/>
       <a name="width" val="4"/>
       <a name="value" val="0x0"/>
     </comp>
-    <comp lib="6" loc="(555,224)" name="Text">
-      <a name="text" val="F3:"/>
-      <a name="font" val="SansSerif bold 26"/>
-    </comp>
-    <comp lib="5" loc="(1000,410)" name="DotMatrix">
-      <a name="matrixcols" val="4"/>
-      <a name="matrixrows" val="5"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="6" loc="(1253,312)" name="Text">
-      <a name="text" val="значение счетчика"/>
-      <a name="font" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="0" loc="(220,1690)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="1" loc="(420,2730)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(220,2280)" name="Constant"/>
-    <comp lib="6" loc="(1063,242)" name="Text">
-      <a name="text" val="Напр."/>
-      <a name="font" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="0" loc="(1290,690)" name="Tunnel">
-      <a name="width" val="30"/>
-      <a name="label" val="10"/>
-    </comp>
-    <comp lib="0" loc="(280,140)" name="Splitter">
+    <comp lib="0" loc="(1260,170)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="30"/>
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="2"/>
-      <a name="bit11" val="2"/>
-      <a name="bit12" val="2"/>
-      <a name="bit13" val="2"/>
-      <a name="bit14" val="2"/>
-      <a name="bit15" val="3"/>
-      <a name="bit16" val="3"/>
-      <a name="bit17" val="3"/>
-      <a name="bit18" val="3"/>
-      <a name="bit19" val="3"/>
-      <a name="bit20" val="4"/>
-      <a name="bit21" val="4"/>
-      <a name="bit22" val="4"/>
-      <a name="bit23" val="4"/>
-      <a name="bit24" val="4"/>
-      <a name="bit25" val="5"/>
-      <a name="bit26" val="5"/>
-      <a name="bit27" val="5"/>
-      <a name="bit28" val="5"/>
-      <a name="bit29" val="5"/>
-    </comp>
-    <comp lib="6" loc="(1734,603)" name="Text">
-      <a name="text" val="1001"/>
-    </comp>
-    <comp lib="1" loc="(310,2280)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(1250,500)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="width" val="16"/>
-      <a name="label" val="d3"/>
-    </comp>
-    <comp lib="0" loc="(220,2730)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(220,1280)" name="Constant"/>
-    <comp lib="0" loc="(1260,170)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="30"/>
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="2"/>
-      <a name="bit11" val="2"/>
-      <a name="bit12" val="2"/>
-      <a name="bit13" val="2"/>
-      <a name="bit14" val="2"/>
-      <a name="bit15" val="3"/>
-      <a name="bit16" val="3"/>
-      <a name="bit17" val="3"/>
-      <a name="bit18" val="3"/>
-      <a name="bit19" val="3"/>
-      <a name="bit20" val="4"/>
-      <a name="bit21" val="4"/>
-      <a name="bit22" val="4"/>
-      <a name="bit23" val="4"/>
-      <a name="bit24" val="4"/>
-      <a name="bit25" val="5"/>
-      <a name="bit26" val="5"/>
-      <a name="bit27" val="5"/>
-      <a name="bit28" val="5"/>
-      <a name="bit29" val="5"/>
-    </comp>
-    <comp lib="0" loc="(220,2000)" name="Clock"/>
-    <comp lib="1" loc="(490,1810)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(1690,820)" name="Tunnel">
-      <a name="width" val="20"/>
-      <a name="label" val="5i"/>
-    </comp>
-    <comp lib="0" loc="(1290,570)" name="Tunnel">
       <a name="width" val="30"/>
-      <a name="label" val="4"/>
+      <a name="label" val="14"/>
     </comp>
-    <comp lib="5" loc="(1710,270)" name="LED"/>
-    <comp lib="5" loc="(1700,520)" name="LED"/>
-    <comp lib="6" loc="(1734,584)" name="Text">
-      <a name="text" val="1000"/>
+    <comp lib="5" loc="(1700,680)" name="LED"/>
+    <comp lib="5" loc="(990,280)" name="Hex Digit Display"/>
+    <comp lib="5" loc="(130,280)" name="Hex Digit Display"/>
+    <comp lib="0" loc="(790,170)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="30"/>
+      <a name="label" val="7"/>
     </comp>
-    <comp lib="5" loc="(1490,250)" name="LED"/>
-    <comp lib="1" loc="(490,1700)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="6" loc="(1516,565)" name="Text">
-      <a name="text" val="0111"/>
-    </comp>
-    <comp lib="1" loc="(720,2310)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
+    <comp lib="6" loc="(1517,665)" name="Text">
+      <a name="text" val="1100"/>
     </comp>
     <comp lib="1" loc="(350,1950)" name="NOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="5" loc="(1490,90)" name="LED"/>
-    <comp lib="6" loc="(207,369)" name="Text"/>
-    <comp lib="6" loc="(1525,75)" name="Text">
-      <a name="text" val="0010"/>
-    </comp>
-    <comp lib="0" loc="(280,260)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="16"/>
-      <a name="label" val="d2"/>
-    </comp>
-    <comp lib="5" loc="(610,280)" name="Hex Digit Display"/>
-    <comp lib="1" loc="(630,1150)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="5" loc="(1480,620)" name="LED"/>
-    <comp lib="0" loc="(1620,750)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="16"/>
-      <a name="label" val="e2"/>
-    </comp>
-    <comp lib="1" loc="(920,1230)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="6" loc="(112,366)" name="Text"/>
-    <comp lib="5" loc="(1480,580)" name="LED"/>
-    <comp lib="5" loc="(940,140)" name="DotMatrix">
-      <a name="matrixcols" val="6"/>
-      <a name="matrixrows" val="5"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="0" loc="(1400,750)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="16"/>
-      <a name="label" val="e1"/>
-    </comp>
-    <comp lib="5" loc="(1710,50)" name="LED"/>
-    <comp lib="5" loc="(1700,620)" name="LED"/>
-    <comp lib="5" loc="(730,280)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(1490,170)" name="LED"/>
-    <comp lib="6" loc="(1526,275)" name="Text">
-      <a name="text" val="1100"/>
-    </comp>
-    <comp lib="6" loc="(161,353)" name="Text"/>
-    <comp lib="5" loc="(1480,440)" name="LED"/>
-    <comp lib="0" loc="(1680,810)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="width" val="20"/>
-      <a name="label" val="4i"/>
-    </comp>
-    <comp lib="5" loc="(1480,660)" name="LED"/>
-    <comp lib="0" loc="(1410,360)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="16"/>
-      <a name="incoming" val="16"/>
-      <a name="appear" val="center"/>
-    </comp>
-    <comp lib="6" loc="(1242,293)" name="Text">
-      <a name="text" val="Макс. - максимальное"/>
-      <a name="font" val="SansSerif bold 12"/>
+    <comp lib="6" loc="(1525,175)" name="Text">
+      <a name="text" val="0111"/>
     </comp>
     <comp lib="5" loc="(1710,230)" name="LED"/>
-    <comp lib="5" loc="(190,110)" name="DotMatrix">
-      <a name="matrixcols" val="6"/>
-      <a name="matrixrows" val="5"/>
-      <a name="offcolor" val="#000000"/>
+    <comp lib="6" loc="(1748,272)" name="Text">
+      <a name="text" val="1100"/>
     </comp>
-    <comp lib="6" loc="(1527,296)" name="Text">
+    <comp lib="0" loc="(220,140)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="30"/>
+      <a name="label" val="17"/>
+    </comp>
+    <comp lib="5" loc="(800,2310)" name="LED"/>
+    <comp lib="5" loc="(870,280)" name="Hex Digit Display"/>
+    <comp lib="6" loc="(1737,686)" name="Text">
       <a name="text" val="1101"/>
     </comp>
-    <comp lib="1" loc="(780,1230)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
+    <comp lib="5" loc="(470,580)" name="LED"/>
+    <comp lib="6" loc="(1514,624)" name="Text">
+      <a name="text" val="1010"/>
     </comp>
-    <comp lib="0" loc="(1090,170)" name="Splitter">
+    <comp lib="6" loc="(180,475)" name="Text">
+      <a name="text" val="not S"/>
+    </comp>
+    <comp lib="5" loc="(1480,420)" name="LED"/>
+    <comp lib="7" loc="(1180,520)" name="main"/>
+    <comp lib="0" loc="(670,170)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="6"/>
       <a name="incoming" val="30"/>
@@ -2101,52 +1376,16 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="matrixrows" val="5"/>
       <a name="offcolor" val="#000000"/>
     </comp>
-    <comp lib="5" loc="(720,1960)" name="LED"/>
-    <comp lib="0" loc="(1290,710)" name="Tunnel">
-      <a name="width" val="30"/>
-      <a name="label" val="11"/>
-    </comp>
-    <comp lib="6" loc="(1733,624)" name="Text">
-      <a name="text" val="1010"/>
-    </comp>
-    <comp lib="0" loc="(220,2610)" name="Constant"/>
-    <comp lib="5" loc="(910,280)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(1220,60)" name="Hex Digit Display"/>
-    <comp lib="6" loc="(1526,56)" name="Text">
-      <a name="text" val="0001"/>
-    </comp>
-    <comp lib="0" loc="(1060,440)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="20"/>
-      <a name="label" val="7i"/>
-    </comp>
-    <comp lib="5" loc="(1700,600)" name="LED"/>
-    <comp lib="6" loc="(1746,150)" name="Text">
-      <a name="text" val="0110"/>
-    </comp>
-    <comp lib="1" loc="(480,1010)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="5" loc="(1490,130)" name="LED"/>
-    <comp lib="6" loc="(74,365)" name="Text"/>
-    <comp lib="5" loc="(1710,70)" name="LED"/>
-    <comp lib="0" loc="(30,340)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="c"/>
-    </comp>
-    <comp lib="5" loc="(1490,270)" name="LED"/>
-    <comp lib="1" loc="(650,1440)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
     <comp lib="0" loc="(1620,830)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="width" val="20"/>
       <a name="label" val="9i"/>
     </comp>
-    <comp lib="6" loc="(1525,36)" name="Text">
-      <a name="text" val="0000"/>
+    <comp lib="0" loc="(1290,690)" name="Tunnel">
+      <a name="width" val="30"/>
+      <a name="label" val="10"/>
     </comp>
-    <comp lib="0" loc="(540,260)" name="Splitter">
+    <comp lib="0" loc="(280,260)" name="Splitter">
       <a name="fanout" val="4"/>
       <a name="incoming" val="16"/>
       <a name="appear" val="center"/>
@@ -2166,96 +1405,119 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit14" val="3"/>
       <a name="bit15" val="3"/>
     </comp>
-    <comp lib="0" loc="(970,170)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="30"/>
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="2"/>
-      <a name="bit11" val="2"/>
-      <a name="bit12" val="2"/>
-      <a name="bit13" val="2"/>
-      <a name="bit14" val="2"/>
-      <a name="bit15" val="3"/>
-      <a name="bit16" val="3"/>
-      <a name="bit17" val="3"/>
-      <a name="bit18" val="3"/>
-      <a name="bit19" val="3"/>
-      <a name="bit20" val="4"/>
-      <a name="bit21" val="4"/>
-      <a name="bit22" val="4"/>
-      <a name="bit23" val="4"/>
-      <a name="bit24" val="4"/>
-      <a name="bit25" val="5"/>
-      <a name="bit26" val="5"/>
-      <a name="bit27" val="5"/>
-      <a name="bit28" val="5"/>
-      <a name="bit29" val="5"/>
+    <comp lib="0" loc="(220,2420)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(1290,510)" name="Tunnel">
-      <a name="width" val="30"/>
-      <a name="label" val="1"/>
+    <comp lib="6" loc="(816,225)" name="Text">
+      <a name="text" val="F4:"/>
+      <a name="font" val="SansSerif bold 26"/>
     </comp>
-    <comp lib="1" loc="(920,1160)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="6" loc="(1735,465)" name="Text">
-      <a name="text" val="0010"/>
-    </comp>
-    <comp lib="5" loc="(950,280)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(1490,110)" name="LED"/>
-    <comp lib="5" loc="(1030,1160)" name="LED"/>
-    <comp lib="5" loc="(1000,140)" name="DotMatrix">
-      <a name="matrixcols" val="6"/>
-      <a name="matrixrows" val="5"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="1" loc="(340,1570)" name="NAND Gate">
+    <comp lib="1" loc="(500,1550)" name="NAND Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(1140,440)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="20"/>
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="2"/>
-      <a name="bit11" val="2"/>
-      <a name="bit12" val="2"/>
-      <a name="bit13" val="2"/>
-      <a name="bit14" val="2"/>
-      <a name="bit15" val="3"/>
-      <a name="bit16" val="3"/>
-      <a name="bit17" val="3"/>
-      <a name="bit18" val="3"/>
-      <a name="bit19" val="3"/>
+    <comp lib="6" loc="(1518,686)" name="Text">
+      <a name="text" val="1101"/>
     </comp>
-    <comp lib="5" loc="(1700,680)" name="LED"/>
-    <comp lib="5" loc="(1480,540)" name="LED"/>
+    <comp lib="6" loc="(1749,293)" name="Text">
+      <a name="text" val="1101"/>
+    </comp>
+    <comp lib="0" loc="(1140,310)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="4"/>
+      <a name="label" val="S3"/>
+    </comp>
+    <comp lib="0" loc="(220,1420)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(1180,60)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="4"/>
+      <a name="label" val="n2"/>
+    </comp>
     <comp lib="0" loc="(1170,740)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="width" val="30"/>
       <a name="label" val="17"/>
     </comp>
-    <comp lib="0" loc="(1300,440)" name="Splitter">
+    <comp lib="5" loc="(750,2610)" name="LED"/>
+    <comp lib="0" loc="(910,170)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="30"/>
+      <a name="label" val="9"/>
+    </comp>
+    <comp lib="0" loc="(30,340)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="c"/>
+    </comp>
+    <comp lib="6" loc="(1734,643)" name="Text">
+      <a name="text" val="1011"/>
+    </comp>
+    <comp lib="1" loc="(670,2610)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(1270,740)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="30"/>
+      <a name="label" val="13"/>
+    </comp>
+    <comp lib="0" loc="(220,140)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="30"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="2"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="3"/>
+      <a name="bit16" val="3"/>
+      <a name="bit17" val="3"/>
+      <a name="bit18" val="3"/>
+      <a name="bit19" val="3"/>
+      <a name="bit20" val="4"/>
+      <a name="bit21" val="4"/>
+      <a name="bit22" val="4"/>
+      <a name="bit23" val="4"/>
+      <a name="bit24" val="4"/>
+      <a name="bit25" val="5"/>
+      <a name="bit26" val="5"/>
+      <a name="bit27" val="5"/>
+      <a name="bit28" val="5"/>
+      <a name="bit29" val="5"/>
+    </comp>
+    <comp lib="6" loc="(1526,275)" name="Text">
+      <a name="text" val="1100"/>
+    </comp>
+    <comp lib="0" loc="(910,740)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="4"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="5" loc="(210,280)" name="Hex Digit Display"/>
+    <comp lib="0" loc="(1640,830)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="20"/>
+      <a name="label" val="8i"/>
+    </comp>
+    <comp lib="1" loc="(310,2280)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(765,1803)" name="Text">
+      <a name="text" val="not Q"/>
+    </comp>
+    <comp lib="0" loc="(1180,440)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="20"/>
@@ -2280,123 +1542,55 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit18" val="3"/>
       <a name="bit19" val="3"/>
     </comp>
-    <comp lib="5" loc="(470,280)" name="Hex Digit Display"/>
-    <comp lib="0" loc="(1640,810)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="width" val="20"/>
-      <a name="label" val="2i"/>
+    <comp lib="6" loc="(189,793)" name="Text">
+      <a name="text" val="S"/>
     </comp>
-    <comp lib="5" loc="(390,280)" name="Hex Digit Display"/>
-    <comp lib="0" loc="(550,170)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="30"/>
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="2"/>
-      <a name="bit11" val="2"/>
-      <a name="bit12" val="2"/>
-      <a name="bit13" val="2"/>
-      <a name="bit14" val="2"/>
-      <a name="bit15" val="3"/>
-      <a name="bit16" val="3"/>
-      <a name="bit17" val="3"/>
-      <a name="bit18" val="3"/>
-      <a name="bit19" val="3"/>
-      <a name="bit20" val="4"/>
-      <a name="bit21" val="4"/>
-      <a name="bit22" val="4"/>
-      <a name="bit23" val="4"/>
-      <a name="bit24" val="4"/>
-      <a name="bit25" val="5"/>
-      <a name="bit26" val="5"/>
-      <a name="bit27" val="5"/>
-      <a name="bit28" val="5"/>
-      <a name="bit29" val="5"/>
+    <comp lib="5" loc="(1710,170)" name="LED"/>
+    <comp lib="0" loc="(1290,650)" name="Tunnel">
+      <a name="width" val="30"/>
+      <a name="label" val="8"/>
     </comp>
-    <comp lib="5" loc="(1480,640)" name="LED"/>
-    <comp lib="6" loc="(1748,311)" name="Text">
-      <a name="text" val="1110"/>
-    </comp>
-    <comp lib="5" loc="(640,140)" name="DotMatrix">
-      <a name="matrixcols" val="6"/>
-      <a name="matrixrows" val="5"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(1180,60)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(350,280)" name="Hex Digit Display"/>
-    <comp lib="0" loc="(1630,360)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="16"/>
-      <a name="label" val="e4"/>
-    </comp>
-    <comp lib="5" loc="(1480,460)" name="LED"/>
-    <comp lib="5" loc="(1490,70)" name="LED"/>
-    <comp lib="5" loc="(1710,110)" name="LED"/>
-    <comp lib="5" loc="(880,140)" name="DotMatrix">
-      <a name="matrixcols" val="6"/>
-      <a name="matrixrows" val="5"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="6" loc="(1104,243)" name="Text">
-      <a name="text" val="Макс."/>
-      <a name="font" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="6" loc="(1746,250)" name="Text">
-      <a name="text" val="1011"/>
-    </comp>
-    <comp lib="0" loc="(490,170)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="30"/>
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="2"/>
-      <a name="bit11" val="2"/>
-      <a name="bit12" val="2"/>
-      <a name="bit13" val="2"/>
-      <a name="bit14" val="2"/>
-      <a name="bit15" val="3"/>
-      <a name="bit16" val="3"/>
-      <a name="bit17" val="3"/>
-      <a name="bit18" val="3"/>
-      <a name="bit19" val="3"/>
-      <a name="bit20" val="4"/>
-      <a name="bit21" val="4"/>
-      <a name="bit22" val="4"/>
-      <a name="bit23" val="4"/>
-      <a name="bit24" val="4"/>
-      <a name="bit25" val="5"/>
-      <a name="bit26" val="5"/>
-      <a name="bit27" val="5"/>
-      <a name="bit28" val="5"/>
-      <a name="bit29" val="5"/>
-    </comp>
-    <comp lib="5" loc="(830,1440)" name="LED"/>
-    <comp lib="5" loc="(1710,250)" name="LED"/>
-    <comp lib="1" loc="(610,2310)" name="NAND Gate">
+    <comp lib="6" loc="(74,365)" name="Text"/>
+    <comp lib="1" loc="(390,2240)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="6" loc="(1633,15)" name="Text">
-      <a name="text" val="Ошибки в F4"/>
-      <a name="font" val="SansSerif bold 14"/>
+    <comp lib="0" loc="(1020,440)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="20"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="2"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="3"/>
+      <a name="bit16" val="3"/>
+      <a name="bit17" val="3"/>
+      <a name="bit18" val="3"/>
+      <a name="bit19" val="3"/>
+    </comp>
+    <comp lib="5" loc="(1060,140)" name="DotMatrix">
+      <a name="matrixcols" val="6"/>
+      <a name="matrixrows" val="5"/>
+      <a name="offcolor" val="#000000"/>
+    </comp>
+    <comp lib="6" loc="(180,1285)" name="Text">
+      <a name="text" val="not R"/>
+    </comp>
+    <comp lib="5" loc="(1490,310)" name="LED"/>
+    <comp lib="6" loc="(1748,311)" name="Text">
+      <a name="text" val="1110"/>
     </comp>
     <comp lib="0" loc="(610,170)" name="Splitter">
       <a name="facing" val="north"/>
@@ -2433,34 +1627,268 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit28" val="5"/>
       <a name="bit29" val="5"/>
     </comp>
-    <comp lib="5" loc="(820,140)" name="DotMatrix">
+    <comp lib="5" loc="(550,1010)" name="LED"/>
+    <comp lib="6" loc="(502,494)" name="Text">
+      <a name="text" val="Q"/>
+    </comp>
+    <comp lib="6" loc="(873,1553)" name="Text">
+      <a name="text" val="not Q"/>
+    </comp>
+    <comp lib="6" loc="(1526,334)" name="Text">
+      <a name="text" val="1111"/>
+    </comp>
+    <comp lib="5" loc="(700,140)" name="DotMatrix">
       <a name="matrixcols" val="6"/>
       <a name="matrixrows" val="5"/>
       <a name="offcolor" val="#000000"/>
     </comp>
-    <comp lib="0" loc="(1100,310)" name="Tunnel">
+    <comp lib="6" loc="(1075,226)" name="Text">
+      <a name="text" val="CNT:"/>
+      <a name="font" val="SansSerif bold 28"/>
+    </comp>
+    <comp lib="6" loc="(510,583)" name="Text">
+      <a name="text" val="not Q"/>
+    </comp>
+    <comp lib="5" loc="(1710,330)" name="LED"/>
+    <comp lib="6" loc="(184,2676)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="5" loc="(720,1960)" name="LED"/>
+    <comp lib="0" loc="(220,470)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(1515,584)" name="Text">
+      <a name="text" val="1000"/>
+    </comp>
+    <comp lib="0" loc="(1260,440)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="20"/>
+      <a name="label" val="2i"/>
+    </comp>
+    <comp lib="6" loc="(1746,210)" name="Text">
+      <a name="text" val="1001"/>
+    </comp>
+    <comp lib="6" loc="(1515,543)" name="Text">
+      <a name="text" val="0110"/>
+    </comp>
+    <comp lib="1" loc="(420,2610)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="5" loc="(830,1550)" name="LED"/>
+    <comp lib="0" loc="(220,2280)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="5" loc="(720,2050)" name="LED"/>
+    <comp lib="6" loc="(183,1035)" name="Text">
+      <a name="text" val="R"/>
+    </comp>
+    <comp lib="6" loc="(758,1715)" name="Text">
+      <a name="text" val="Q"/>
+    </comp>
+    <comp lib="5" loc="(390,280)" name="Hex Digit Display"/>
+    <comp lib="0" loc="(1410,360)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="16"/>
+      <a name="incoming" val="16"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="5" loc="(1490,190)" name="LED"/>
+    <comp lib="5" loc="(1480,700)" name="LED"/>
+    <comp lib="6" loc="(1525,95)" name="Text">
+      <a name="text" val="0011"/>
+    </comp>
+    <comp lib="5" loc="(430,280)" name="Hex Digit Display"/>
+    <comp lib="6" loc="(1633,15)" name="Text">
+      <a name="text" val="Ошибки в F4"/>
+      <a name="font" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="0" loc="(1060,310)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="width" val="4"/>
-      <a name="label" val="S2"/>
+      <a name="label" val="S1"/>
     </comp>
-    <comp lib="6" loc="(1747,72)" name="Text">
-      <a name="text" val="0010"/>
-    </comp>
-    <comp lib="0" loc="(100,140)" name="Tunnel">
+    <comp lib="5" loc="(1700,540)" name="LED"/>
+    <comp lib="0" loc="(1020,440)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="width" val="30"/>
-      <a name="label" val="15"/>
+      <a name="width" val="20"/>
+      <a name="label" val="8i"/>
     </comp>
+    <comp lib="5" loc="(1490,30)" name="LED"/>
+    <comp lib="5" loc="(1480,620)" name="LED"/>
+    <comp lib="6" loc="(1064,1164)" name="Text">
+      <a name="text" val="Q"/>
+    </comp>
+    <comp lib="0" loc="(220,2000)" name="Clock"/>
+    <comp lib="5" loc="(690,280)" name="Hex Digit Display"/>
+    <comp lib="1" loc="(720,2250)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(890,740)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="4"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="5" loc="(1710,130)" name="LED"/>
+    <comp lib="6" loc="(1217,149)" name="Text">
+      <a name="text" val="."/>
+      <a name="font" val="SansSerif plain 64"/>
+    </comp>
+    <comp lib="5" loc="(800,2250)" name="LED"/>
+    <comp lib="0" loc="(800,260)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="16"/>
+      <a name="label" val="d4"/>
+    </comp>
+    <comp lib="5" loc="(1700,480)" name="LED"/>
+    <comp lib="0" loc="(280,140)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="30"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="2"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="3"/>
+      <a name="bit16" val="3"/>
+      <a name="bit17" val="3"/>
+      <a name="bit18" val="3"/>
+      <a name="bit19" val="3"/>
+      <a name="bit20" val="4"/>
+      <a name="bit21" val="4"/>
+      <a name="bit22" val="4"/>
+      <a name="bit23" val="4"/>
+      <a name="bit24" val="4"/>
+      <a name="bit25" val="5"/>
+      <a name="bit26" val="5"/>
+      <a name="bit27" val="5"/>
+      <a name="bit28" val="5"/>
+      <a name="bit29" val="5"/>
+    </comp>
+    <comp lib="0" loc="(800,260)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="16"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="2"/>
+      <a name="bit9" val="2"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="2"/>
+      <a name="bit12" val="3"/>
+      <a name="bit13" val="3"/>
+      <a name="bit14" val="3"/>
+      <a name="bit15" val="3"/>
+    </comp>
+    <comp lib="0" loc="(1610,820)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="3"/>
+      <a name="label" val="co"/>
+    </comp>
+    <comp lib="5" loc="(1710,70)" name="LED"/>
+    <comp lib="5" loc="(980,640)" name="Button">
+      <a name="labelloc" val="west"/>
+    </comp>
+    <comp lib="5" loc="(940,140)" name="DotMatrix">
+      <a name="matrixcols" val="6"/>
+      <a name="matrixrows" val="5"/>
+      <a name="offcolor" val="#000000"/>
+    </comp>
+    <comp lib="0" loc="(220,2170)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(180,2285)" name="Text">
+      <a name="text" val="T"/>
+    </comp>
+    <comp lib="5" loc="(190,110)" name="DotMatrix">
+      <a name="matrixcols" val="6"/>
+      <a name="matrixrows" val="5"/>
+      <a name="offcolor" val="#000000"/>
+    </comp>
+    <comp lib="5" loc="(1480,520)" name="LED"/>
+    <comp lib="5" loc="(1710,110)" name="LED"/>
+    <comp lib="6" loc="(591,1014)" name="Text">
+      <a name="text" val="not Q"/>
+    </comp>
+    <comp lib="0" loc="(1100,440)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="20"/>
+      <a name="label" val="6i"/>
+    </comp>
+    <comp lib="1" loc="(920,1230)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="6" loc="(100,383)" name="Text"/>
     <comp lib="5" loc="(460,140)" name="DotMatrix">
       <a name="matrixcols" val="6"/>
       <a name="matrixrows" val="5"/>
       <a name="offcolor" val="#000000"/>
     </comp>
-    <comp lib="6" loc="(1746,191)" name="Text">
-      <a name="text" val="1000"/>
+    <comp lib="6" loc="(1735,485)" name="Text">
+      <a name="text" val="0011"/>
     </comp>
-    <comp lib="5" loc="(800,2250)" name="LED"/>
-    <comp lib="0" loc="(1220,440)" name="Splitter">
+    <comp lib="1" loc="(620,2050)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="5" loc="(1480,460)" name="LED"/>
+    <comp lib="0" loc="(220,1140)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(1290,590)" name="Tunnel">
+      <a name="width" val="30"/>
+      <a name="label" val="5"/>
+    </comp>
+    <comp lib="1" loc="(340,1010)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(220,960)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(1104,243)" name="Text">
+      <a name="text" val="Макс."/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="5" loc="(1710,190)" name="LED"/>
+    <comp lib="5" loc="(90,280)" name="Hex Digit Display"/>
+    <comp lib="0" loc="(1190,740)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="30"/>
+      <a name="label" val="18"/>
+    </comp>
+    <comp lib="6" loc="(1525,36)" name="Text">
+      <a name="text" val="0000"/>
+    </comp>
+    <comp lib="6" loc="(185,2734)" name="Text">
+      <a name="text" val="K"/>
+    </comp>
+    <comp lib="0" loc="(1130,500)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="width" val="16"/>
+      <a name="label" val="e3"/>
+    </comp>
+    <comp lib="6" loc="(188,2003)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="0" loc="(1140,440)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="20"/>
@@ -2485,54 +1913,225 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit18" val="3"/>
       <a name="bit19" val="3"/>
     </comp>
-    <comp lib="0" loc="(1180,170)" name="Tunnel">
+    <comp lib="5" loc="(1710,250)" name="LED"/>
+    <comp lib="0" loc="(980,440)" name="Splitter">
       <a name="facing" val="north"/>
-      <a name="width" val="30"/>
-      <a name="label" val="13"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="20"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="2"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="3"/>
+      <a name="bit16" val="3"/>
+      <a name="bit17" val="3"/>
+      <a name="bit18" val="3"/>
+      <a name="bit19" val="3"/>
     </comp>
-    <comp lib="0" loc="(1260,60)" name="Tunnel">
+    <comp lib="0" loc="(970,170)" name="Splitter">
       <a name="facing" val="north"/>
-      <a name="width" val="4"/>
-      <a name="label" val="n0"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="30"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="2"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="3"/>
+      <a name="bit16" val="3"/>
+      <a name="bit17" val="3"/>
+      <a name="bit18" val="3"/>
+      <a name="bit19" val="3"/>
+      <a name="bit20" val="4"/>
+      <a name="bit21" val="4"/>
+      <a name="bit22" val="4"/>
+      <a name="bit23" val="4"/>
+      <a name="bit24" val="4"/>
+      <a name="bit25" val="5"/>
+      <a name="bit26" val="5"/>
+      <a name="bit27" val="5"/>
+      <a name="bit28" val="5"/>
+      <a name="bit29" val="5"/>
     </comp>
-    <comp lib="0" loc="(910,740)" name="Constant">
+    <comp lib="5" loc="(980,700)" name="Button">
+      <a name="labelloc" val="west"/>
+    </comp>
+    <comp lib="0" loc="(1690,820)" name="Tunnel">
+      <a name="width" val="20"/>
+      <a name="label" val="5i"/>
+    </comp>
+    <comp lib="5" loc="(1160,410)" name="DotMatrix">
+      <a name="matrixcols" val="4"/>
+      <a name="matrixrows" val="5"/>
+      <a name="offcolor" val="#000000"/>
+    </comp>
+    <comp lib="6" loc="(185,1255)" name="Text">
+      <a name="text" val="R"/>
+    </comp>
+    <comp lib="5" loc="(1100,60)" name="Hex Digit Display"/>
+    <comp lib="0" loc="(1190,500)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="width" val="4"/>
-      <a name="value" val="0x0"/>
+      <a name="label" val="Fi"/>
+    </comp>
+    <comp lib="1" loc="(920,1160)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(1410,360)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="16"/>
+      <a name="label" val="e3"/>
+    </comp>
+    <comp lib="0" loc="(1300,440)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="20"/>
+      <a name="label" val="1i"/>
+    </comp>
+    <comp lib="0" loc="(1100,60)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="4"/>
+      <a name="label" val="n4"/>
+    </comp>
+    <comp lib="5" loc="(1490,90)" name="LED"/>
+    <comp lib="5" loc="(470,680)" name="LED"/>
+    <comp lib="6" loc="(1070,1233)" name="Text">
+      <a name="text" val="not Q"/>
+    </comp>
+    <comp lib="0" loc="(1220,60)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="4"/>
+      <a name="label" val="n1"/>
+    </comp>
+    <comp lib="0" loc="(550,170)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="30"/>
+      <a name="label" val="3"/>
     </comp>
     <comp lib="1" loc="(490,1240)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="6" loc="(1748,331)" name="Text">
-      <a name="text" val="1111"/>
+    <comp lib="6" loc="(1623,405)" name="Text">
+      <a name="text" val="Ошибки в  F2"/>
+      <a name="font" val="SansSerif bold 14"/>
     </comp>
-    <comp lib="0" loc="(220,2530)" name="Constant"/>
-    <comp lib="5" loc="(550,900)" name="LED"/>
-    <comp lib="1" loc="(500,1550)" name="NAND Gate">
+    <comp lib="0" loc="(1290,670)" name="Tunnel">
+      <a name="width" val="30"/>
+      <a name="label" val="9"/>
+    </comp>
+    <comp lib="0" loc="(220,1690)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(555,224)" name="Text">
+      <a name="text" val="F3:"/>
+      <a name="font" val="SansSerif bold 26"/>
+    </comp>
+    <comp lib="6" loc="(1403,405)" name="Text">
+      <a name="text" val="Ошибки в F1"/>
+      <a name="font" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="5" loc="(1700,580)" name="LED"/>
+    <comp lib="5" loc="(1480,560)" name="LED"/>
+    <comp lib="1" loc="(360,1190)" name="NAND Gate">
+      <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="5" loc="(1490,230)" name="LED"/>
-    <comp lib="0" loc="(1170,500)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="width" val="3"/>
-      <a name="label" val="co"/>
+    <comp lib="6" loc="(1515,603)" name="Text">
+      <a name="text" val="1001"/>
     </comp>
-    <comp lib="6" loc="(1517,446)" name="Text">
-      <a name="text" val="0001"/>
+    <comp lib="6" loc="(1746,130)" name="Text">
+      <a name="text" val="0101"/>
     </comp>
-    <comp lib="6" loc="(1735,485)" name="Text">
-      <a name="text" val="0011"/>
+    <comp lib="5" loc="(550,900)" name="LED"/>
+    <comp lib="6" loc="(1734,543)" name="Text">
+      <a name="text" val="0110"/>
     </comp>
-    <comp lib="5" loc="(960,410)" name="DotMatrix">
-      <a name="matrixcols" val="4"/>
+    <comp lib="6" loc="(178,2424)" name="Text">
+      <a name="text" val="not R"/>
+    </comp>
+    <comp lib="0" loc="(1620,750)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="16"/>
+      <a name="label" val="e2"/>
+    </comp>
+    <comp lib="5" loc="(520,140)" name="DotMatrix">
+      <a name="matrixcols" val="6"/>
       <a name="matrixrows" val="5"/>
       <a name="offcolor" val="#000000"/>
     </comp>
-    <comp lib="5" loc="(1140,60)" name="Hex Digit Display"/>
-    <comp lib="0" loc="(220,2420)" name="Constant"/>
-    <comp lib="1" loc="(340,1010)" name="NAND Gate">
-      <a name="inputs" val="2"/>
+    <comp lib="5" loc="(1060,310)" name="Hex Digit Display"/>
+    <comp lib="5" loc="(400,140)" name="DotMatrix">
+      <a name="matrixcols" val="6"/>
+      <a name="matrixrows" val="5"/>
+      <a name="offcolor" val="#000000"/>
+    </comp>
+    <comp lib="5" loc="(1490,250)" name="LED"/>
+    <comp lib="0" loc="(730,170)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="30"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="2"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="3"/>
+      <a name="bit16" val="3"/>
+      <a name="bit17" val="3"/>
+      <a name="bit18" val="3"/>
+      <a name="bit19" val="3"/>
+      <a name="bit20" val="4"/>
+      <a name="bit21" val="4"/>
+      <a name="bit22" val="4"/>
+      <a name="bit23" val="4"/>
+      <a name="bit24" val="4"/>
+      <a name="bit25" val="5"/>
+      <a name="bit26" val="5"/>
+      <a name="bit27" val="5"/>
+      <a name="bit28" val="5"/>
+      <a name="bit29" val="5"/>
+    </comp>
+    <comp lib="6" loc="(1524,213)" name="Text">
+      <a name="text" val="1001"/>
+    </comp>
+    <comp lib="5" loc="(350,280)" name="Hex Digit Display"/>
+    <comp lib="5" loc="(1710,50)" name="LED"/>
+    <comp lib="5" loc="(1000,410)" name="DotMatrix">
+      <a name="matrixcols" val="4"/>
+      <a name="matrixrows" val="5"/>
+      <a name="offcolor" val="#000000"/>
     </comp>
     <comp lib="0" loc="(160,140)" name="Splitter">
       <a name="facing" val="north"/>
@@ -2569,27 +2168,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit28" val="5"/>
       <a name="bit29" val="5"/>
     </comp>
-    <comp lib="5" loc="(1700,480)" name="LED"/>
-    <comp lib="1" loc="(670,2730)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
+    <comp lib="0" loc="(220,1940)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
-    <comp lib="5" loc="(1060,310)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(870,280)" name="Hex Digit Display"/>
-    <comp lib="1" loc="(620,1710)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(220,2670)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(1070,500)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="width" val="4"/>
-      <a name="label" val="n2"/>
-    </comp>
-    <comp lib="5" loc="(1700,720)" name="LED"/>
-    <comp lib="0" loc="(340,140)" name="Splitter">
+    <comp lib="0" loc="(550,170)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="6"/>
       <a name="incoming" val="30"/>
@@ -2624,131 +2206,56 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit28" val="5"/>
       <a name="bit29" val="5"/>
     </comp>
-    <comp lib="5" loc="(720,2050)" name="LED"/>
-    <comp lib="1" loc="(560,2720)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
+    <comp lib="0" loc="(1010,740)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="4"/>
+      <a name="label" val="S2"/>
     </comp>
-    <comp lib="6" loc="(1515,584)" name="Text">
-      <a name="text" val="1000"/>
+    <comp lib="5" loc="(1710,30)" name="LED"/>
+    <comp lib="0" loc="(1250,740)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="30"/>
+      <a name="label" val="14"/>
     </comp>
+    <comp lib="6" loc="(1734,523)" name="Text">
+      <a name="text" val="0101"/>
+    </comp>
+    <comp lib="6" loc="(149,483)" name="Text"/>
     <comp lib="1" loc="(500,2240)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="6" loc="(1737,686)" name="Text">
-      <a name="text" val="1101"/>
+    <comp lib="0" loc="(220,1190)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(1290,610)" name="Tunnel">
+    <comp lib="1" loc="(340,880)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(1746,150)" name="Text">
+      <a name="text" val="0110"/>
+    </comp>
+    <comp lib="0" loc="(1290,530)" name="Tunnel">
       <a name="width" val="30"/>
-      <a name="label" val="6"/>
+      <a name="label" val="2"/>
     </comp>
-    <comp lib="0" loc="(220,1420)" name="Constant"/>
-    <comp lib="0" loc="(340,140)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="30"/>
-      <a name="label" val="19"/>
-    </comp>
-    <comp lib="6" loc="(100,383)" name="Text"/>
-    <comp lib="0" loc="(980,440)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="20"/>
-      <a name="label" val="9i"/>
-    </comp>
-    <comp lib="0" loc="(1090,500)" name="Tunnel">
+    <comp lib="0" loc="(1110,500)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="width" val="16"/>
-      <a name="label" val="e1"/>
+      <a name="label" val="e2"/>
     </comp>
-    <comp lib="6" loc="(1517,704)" name="Text">
-      <a name="text" val="1110"/>
+    <comp lib="6" loc="(178,2805)" name="Text">
+      <a name="text" val="not R"/>
     </comp>
-    <comp lib="0" loc="(1230,740)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="30"/>
-      <a name="label" val="20"/>
-    </comp>
-    <comp lib="0" loc="(1100,440)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="20"/>
-      <a name="label" val="6i"/>
-    </comp>
-    <comp lib="5" loc="(70,110)" name="DotMatrix">
-      <a name="matrixcols" val="6"/>
+    <comp lib="5" loc="(1120,410)" name="DotMatrix">
+      <a name="matrixcols" val="4"/>
       <a name="matrixrows" val="5"/>
       <a name="offcolor" val="#000000"/>
     </comp>
-    <comp lib="5" loc="(700,140)" name="DotMatrix">
-      <a name="matrixcols" val="6"/>
-      <a name="matrixrows" val="5"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="0" loc="(1030,170)" name="Tunnel">
+    <comp lib="5" loc="(1180,60)" name="Hex Digit Display"/>
+    <comp lib="0" loc="(1050,740)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="width" val="30"/>
-      <a name="label" val="11"/>
-    </comp>
-    <comp lib="5" loc="(990,280)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(1030,1230)" name="LED"/>
-    <comp lib="0" loc="(930,740)" name="Constant">
-      <a name="facing" val="south"/>
       <a name="width" val="4"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(1270,740)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="30"/>
-      <a name="label" val="13"/>
-    </comp>
-    <comp lib="0" loc="(220,1750)" name="Clock"/>
-    <comp lib="5" loc="(750,2730)" name="LED"/>
-    <comp lib="0" loc="(90,340)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="width" val="4"/>
-      <a name="label" val="Fi"/>
-    </comp>
-    <comp lib="5" loc="(1490,330)" name="LED"/>
-    <comp lib="6" loc="(1515,643)" name="Text">
-      <a name="text" val="1011"/>
-    </comp>
-    <comp lib="0" loc="(220,1110)" name="Constant"/>
-    <comp lib="6" loc="(86,45)" name="Text">
-      <a name="text" val="Группа"/>
-      <a name="font" val="Times New Roman bold 44"/>
-    </comp>
-    <comp lib="1" loc="(420,2610)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="6" loc="(1525,95)" name="Text">
-      <a name="text" val="0011"/>
-    </comp>
-    <comp lib="5" loc="(1490,210)" name="LED"/>
-    <comp lib="6" loc="(1733,504)" name="Text">
-      <a name="text" val="0100"/>
-    </comp>
-    <comp lib="0" loc="(1290,730)" name="Tunnel">
-      <a name="width" val="30"/>
-      <a name="label" val="12"/>
-    </comp>
-    <comp lib="6" loc="(1745,111)" name="Text">
-      <a name="text" val="0100"/>
-    </comp>
-    <comp lib="5" loc="(170,280)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(10,110)" name="DotMatrix">
-      <a name="matrixcols" val="6"/>
-      <a name="matrixrows" val="5"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="0" loc="(1640,830)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="20"/>
-      <a name="label" val="8i"/>
-    </comp>
-    <comp lib="0" loc="(730,170)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="30"/>
-      <a name="label" val="6"/>
+      <a name="label" val="n4"/>
     </comp>
     <comp lib="0" loc="(1630,360)" name="Splitter">
       <a name="facing" val="north"/>
@@ -2756,169 +2263,95 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="incoming" val="16"/>
       <a name="appear" val="center"/>
     </comp>
-    <comp lib="6" loc="(1523,234)" name="Text">
-      <a name="text" val="1010"/>
-    </comp>
-    <comp lib="1" loc="(310,2730)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="5" loc="(980,640)" name="Button">
-      <a name="labelloc" val="west"/>
-    </comp>
-    <comp lib="5" loc="(1700,540)" name="LED"/>
-    <comp lib="0" loc="(40,140)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="30"/>
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="2"/>
-      <a name="bit11" val="2"/>
-      <a name="bit12" val="2"/>
-      <a name="bit13" val="2"/>
-      <a name="bit14" val="2"/>
-      <a name="bit15" val="3"/>
-      <a name="bit16" val="3"/>
-      <a name="bit17" val="3"/>
-      <a name="bit18" val="3"/>
-      <a name="bit19" val="3"/>
-      <a name="bit20" val="4"/>
-      <a name="bit21" val="4"/>
-      <a name="bit22" val="4"/>
-      <a name="bit23" val="4"/>
-      <a name="bit24" val="4"/>
-      <a name="bit25" val="5"/>
-      <a name="bit26" val="5"/>
-      <a name="bit27" val="5"/>
-      <a name="bit28" val="5"/>
-      <a name="bit29" val="5"/>
-    </comp>
-    <comp lib="5" loc="(1480,560)" name="LED"/>
-    <comp lib="0" loc="(980,440)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="20"/>
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="2"/>
-      <a name="bit11" val="2"/>
-      <a name="bit12" val="2"/>
-      <a name="bit13" val="2"/>
-      <a name="bit14" val="2"/>
-      <a name="bit15" val="3"/>
-      <a name="bit16" val="3"/>
-      <a name="bit17" val="3"/>
-      <a name="bit18" val="3"/>
-      <a name="bit19" val="3"/>
-    </comp>
-    <comp lib="0" loc="(1290,590)" name="Tunnel">
-      <a name="width" val="30"/>
-      <a name="label" val="5"/>
-    </comp>
-    <comp lib="6" loc="(1747,33)" name="Text">
-      <a name="text" val="0000"/>
-    </comp>
-    <comp lib="5" loc="(1700,440)" name="LED"/>
-    <comp lib="5" loc="(1490,310)" name="LED"/>
-    <comp lib="6" loc="(1524,194)" name="Text">
-      <a name="text" val="1000"/>
-    </comp>
-    <comp lib="1" loc="(490,1150)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(157,329)" name="Text"/>
-    <comp lib="1" loc="(500,2320)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(1060,310)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="4"/>
-      <a name="label" val="S1"/>
-    </comp>
-    <comp lib="0" loc="(1030,170)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="30"/>
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="2"/>
-      <a name="bit11" val="2"/>
-      <a name="bit12" val="2"/>
-      <a name="bit13" val="2"/>
-      <a name="bit14" val="2"/>
-      <a name="bit15" val="3"/>
-      <a name="bit16" val="3"/>
-      <a name="bit17" val="3"/>
-      <a name="bit18" val="3"/>
-      <a name="bit19" val="3"/>
-      <a name="bit20" val="4"/>
-      <a name="bit21" val="4"/>
-      <a name="bit22" val="4"/>
-      <a name="bit23" val="4"/>
-      <a name="bit24" val="4"/>
-      <a name="bit25" val="5"/>
-      <a name="bit26" val="5"/>
-      <a name="bit27" val="5"/>
-      <a name="bit28" val="5"/>
-      <a name="bit29" val="5"/>
-    </comp>
-    <comp lib="6" loc="(311,585)" name="Text"/>
-    <comp lib="0" loc="(490,170)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="30"/>
-      <a name="label" val="2"/>
-    </comp>
-    <comp lib="6" loc="(1523,114)" name="Text">
-      <a name="text" val="0100"/>
-    </comp>
-    <comp lib="6" loc="(1524,133)" name="Text">
-      <a name="text" val="0101"/>
-    </comp>
-    <comp lib="6" loc="(1514,504)" name="Text">
-      <a name="text" val="0100"/>
-    </comp>
-    <comp lib="5" loc="(830,1550)" name="LED"/>
     <comp lib="6" loc="(1736,704)" name="Text">
       <a name="text" val="1110"/>
     </comp>
-    <comp lib="5" loc="(310,110)" name="DotMatrix">
-      <a name="matrixcols" val="6"/>
-      <a name="matrixrows" val="5"/>
-      <a name="offcolor" val="#000000"/>
+    <comp lib="0" loc="(1070,740)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="4"/>
+      <a name="label" val="n3"/>
     </comp>
-    <comp lib="5" loc="(1120,410)" name="DotMatrix">
-      <a name="matrixcols" val="4"/>
-      <a name="matrixrows" val="5"/>
-      <a name="offcolor" val="#000000"/>
+    <comp lib="8" loc="(1680,820)" name="main"/>
+    <comp lib="0" loc="(1290,570)" name="Tunnel">
+      <a name="width" val="30"/>
+      <a name="label" val="4"/>
     </comp>
-    <comp lib="5" loc="(1480,720)" name="LED"/>
+    <comp lib="6" loc="(191,665)" name="Text">
+      <a name="text" val="R"/>
+    </comp>
+    <comp lib="5" loc="(830,1440)" name="LED"/>
+    <comp lib="5" loc="(1710,270)" name="LED"/>
+    <comp lib="6" loc="(1524,253)" name="Text">
+      <a name="text" val="1011"/>
+    </comp>
+    <comp lib="0" loc="(1050,500)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="width" val="4"/>
+      <a name="label" val="S1"/>
+    </comp>
+    <comp lib="1" loc="(390,2320)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(350,2060)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1140,440)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="20"/>
+      <a name="label" val="5i"/>
+    </comp>
+    <comp lib="1" loc="(610,2310)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1090,500)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="width" val="16"/>
+      <a name="label" val="e1"/>
+    </comp>
+    <comp lib="0" loc="(1150,740)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="30"/>
+      <a name="label" val="16"/>
+    </comp>
+    <comp lib="0" loc="(1250,500)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="width" val="16"/>
+      <a name="label" val="d3"/>
+    </comp>
+    <comp lib="0" loc="(1210,500)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="width" val="16"/>
+      <a name="label" val="d1"/>
+    </comp>
+    <comp lib="5" loc="(1700,640)" name="LED"/>
+    <comp lib="0" loc="(1290,710)" name="Tunnel">
+      <a name="width" val="30"/>
+      <a name="label" val="11"/>
+    </comp>
+    <comp lib="0" loc="(1660,830)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="20"/>
+      <a name="label" val="7i"/>
+    </comp>
+    <comp lib="0" loc="(90,350)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="5" loc="(1700,520)" name="LED"/>
+    <comp lib="6" loc="(1747,33)" name="Text">
+      <a name="text" val="0000"/>
+    </comp>
+    <comp lib="5" loc="(1490,270)" name="LED"/>
+    <comp lib="0" loc="(100,140)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="30"/>
+      <a name="label" val="15"/>
+    </comp>
     <comp lib="0" loc="(100,140)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="6"/>
@@ -2954,59 +2387,221 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit28" val="5"/>
       <a name="bit29" val="5"/>
     </comp>
-    <comp lib="0" loc="(850,170)" name="Tunnel">
+    <comp lib="6" loc="(1747,172)" name="Text">
+      <a name="text" val="0111"/>
+    </comp>
+    <comp lib="6" loc="(1242,293)" name="Text">
+      <a name="text" val="Макс. - максимальное"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="5" loc="(1140,310)" name="Hex Digit Display"/>
+    <comp lib="0" loc="(1090,170)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="width" val="30"/>
-      <a name="label" val="8"/>
+      <a name="label" val="12"/>
     </comp>
-    <comp lib="0" loc="(220,1500)" name="Constant"/>
-    <comp lib="0" loc="(220,660)" name="Constant">
-      <a name="value" val="0x0"/>
+    <comp lib="6" loc="(1525,75)" name="Text">
+      <a name="text" val="0010"/>
     </comp>
-    <comp lib="5" loc="(1240,410)" name="DotMatrix">
+    <comp lib="0" loc="(790,170)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="30"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="2"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="3"/>
+      <a name="bit16" val="3"/>
+      <a name="bit17" val="3"/>
+      <a name="bit18" val="3"/>
+      <a name="bit19" val="3"/>
+      <a name="bit20" val="4"/>
+      <a name="bit21" val="4"/>
+      <a name="bit22" val="4"/>
+      <a name="bit23" val="4"/>
+      <a name="bit24" val="4"/>
+      <a name="bit25" val="5"/>
+      <a name="bit26" val="5"/>
+      <a name="bit27" val="5"/>
+      <a name="bit28" val="5"/>
+      <a name="bit29" val="5"/>
+    </comp>
+    <comp lib="6" loc="(311,585)" name="Text"/>
+    <comp lib="6" loc="(1516,465)" name="Text">
+      <a name="text" val="0010"/>
+    </comp>
+    <comp lib="5" loc="(10,110)" name="DotMatrix">
+      <a name="matrixcols" val="6"/>
+      <a name="matrixrows" val="5"/>
+      <a name="offcolor" val="#000000"/>
+    </comp>
+    <comp lib="0" loc="(220,790)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="5" loc="(1480,600)" name="LED"/>
+    <comp lib="0" loc="(490,170)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="30"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="2"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="3"/>
+      <a name="bit16" val="3"/>
+      <a name="bit17" val="3"/>
+      <a name="bit18" val="3"/>
+      <a name="bit19" val="3"/>
+      <a name="bit20" val="4"/>
+      <a name="bit21" val="4"/>
+      <a name="bit22" val="4"/>
+      <a name="bit23" val="4"/>
+      <a name="bit24" val="4"/>
+      <a name="bit25" val="5"/>
+      <a name="bit26" val="5"/>
+      <a name="bit27" val="5"/>
+      <a name="bit28" val="5"/>
+      <a name="bit29" val="5"/>
+    </comp>
+    <comp lib="0" loc="(90,340)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="width" val="4"/>
+      <a name="label" val="Fi"/>
+    </comp>
+    <comp lib="5" loc="(1200,410)" name="DotMatrix">
       <a name="matrixcols" val="4"/>
       <a name="matrixrows" val="5"/>
       <a name="offcolor" val="#000000"/>
     </comp>
-    <comp lib="0" loc="(1400,750)" name="Splitter">
+    <comp lib="5" loc="(1490,130)" name="LED"/>
+    <comp lib="0" loc="(980,440)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="fanout" val="16"/>
-      <a name="incoming" val="16"/>
-      <a name="appear" val="center"/>
+      <a name="width" val="20"/>
+      <a name="label" val="9i"/>
     </comp>
-    <comp lib="0" loc="(1140,310)" name="Tunnel">
+    <comp lib="1" loc="(420,2730)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="6" loc="(1733,624)" name="Text">
+      <a name="text" val="1010"/>
+    </comp>
+    <comp lib="0" loc="(1260,170)" name="Splitter">
       <a name="facing" val="north"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="30"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="2"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="3"/>
+      <a name="bit16" val="3"/>
+      <a name="bit17" val="3"/>
+      <a name="bit18" val="3"/>
+      <a name="bit19" val="3"/>
+      <a name="bit20" val="4"/>
+      <a name="bit21" val="4"/>
+      <a name="bit22" val="4"/>
+      <a name="bit23" val="4"/>
+      <a name="bit24" val="4"/>
+      <a name="bit25" val="5"/>
+      <a name="bit26" val="5"/>
+      <a name="bit27" val="5"/>
+      <a name="bit28" val="5"/>
+      <a name="bit29" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1030,170)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="30"/>
+      <a name="label" val="11"/>
+    </comp>
+    <comp lib="1" loc="(490,1810)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(1680,810)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="width" val="20"/>
+      <a name="label" val="4i"/>
+    </comp>
+    <comp lib="6" loc="(1298,149)" name="Text">
+      <a name="text" val="."/>
+      <a name="font" val="SansSerif plain 64"/>
+    </comp>
+    <comp lib="6" loc="(1253,312)" name="Text">
+      <a name="text" val="значение счетчика"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(970,740)" name="Constant">
+      <a name="facing" val="south"/>
       <a name="width" val="4"/>
-      <a name="label" val="S3"/>
+      <a name="value" val="0x0"/>
     </comp>
     <comp lib="0" loc="(1660,810)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="width" val="20"/>
       <a name="label" val="3i"/>
     </comp>
-    <comp lib="0" loc="(220,140)" name="Tunnel">
+    <comp lib="1" loc="(560,2620)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="5" loc="(470,280)" name="Hex Digit Display"/>
+    <comp lib="5" loc="(1480,580)" name="LED"/>
+    <comp lib="0" loc="(220,2610)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="5" loc="(1700,700)" name="LED"/>
+    <comp lib="5" loc="(750,2730)" name="LED"/>
+    <comp lib="6" loc="(1735,565)" name="Text">
+      <a name="text" val="0111"/>
+    </comp>
+    <comp lib="5" loc="(1710,150)" name="LED"/>
+    <comp lib="0" loc="(40,140)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="width" val="30"/>
-      <a name="label" val="17"/>
+      <a name="label" val="20"/>
     </comp>
-    <comp lib="6" loc="(816,225)" name="Text">
-      <a name="text" val="F4:"/>
-      <a name="font" val="SansSerif bold 26"/>
+    <comp lib="5" loc="(960,410)" name="DotMatrix">
+      <a name="matrixcols" val="4"/>
+      <a name="matrixrows" val="5"/>
+      <a name="offcolor" val="#000000"/>
     </comp>
-    <comp lib="0" loc="(890,740)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="width" val="4"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="6" loc="(1748,272)" name="Text">
-      <a name="text" val="1100"/>
-    </comp>
-    <comp lib="0" loc="(1110,500)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="width" val="16"/>
-      <a name="label" val="e2"/>
-    </comp>
-    <comp lib="0" loc="(1100,440)" name="Splitter">
+    <comp lib="0" loc="(1220,440)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="20"/>
@@ -3031,27 +2626,392 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit18" val="3"/>
       <a name="bit19" val="3"/>
     </comp>
-    <comp lib="1" loc="(360,1190)" name="NAND Gate">
+    <comp lib="5" loc="(1100,310)" name="Hex Digit Display"/>
+    <comp lib="5" loc="(1490,110)" name="LED"/>
+    <comp lib="5" loc="(1490,330)" name="LED"/>
+    <comp lib="0" loc="(1300,440)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="20"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="2"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="3"/>
+      <a name="bit16" val="3"/>
+      <a name="bit17" val="3"/>
+      <a name="bit18" val="3"/>
+      <a name="bit19" val="3"/>
+    </comp>
+    <comp lib="0" loc="(220,2070)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="5" loc="(1710,290)" name="LED"/>
+    <comp lib="0" loc="(280,140)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="30"/>
+      <a name="label" val="18"/>
+    </comp>
+    <comp lib="6" loc="(1736,446)" name="Text">
+      <a name="text" val="0001"/>
+    </comp>
+    <comp lib="6" loc="(1745,111)" name="Text">
+      <a name="text" val="0100"/>
+    </comp>
+    <comp lib="6" loc="(1745,231)" name="Text">
+      <a name="text" val="1010"/>
+    </comp>
+    <comp lib="0" loc="(1290,630)" name="Tunnel">
+      <a name="width" val="30"/>
+      <a name="label" val="7"/>
+    </comp>
+    <comp lib="0" loc="(1400,750)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="16"/>
+      <a name="incoming" val="16"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="6" loc="(670,533)" name="Text"/>
+    <comp lib="5" loc="(1230,140)" name="DotMatrix">
+      <a name="matrixcols" val="6"/>
+      <a name="matrixrows" val="5"/>
+      <a name="offcolor" val="#000000"/>
+    </comp>
+    <comp lib="1" loc="(670,2730)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(1210,740)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="30"/>
+      <a name="label" val="19"/>
+    </comp>
+    <comp lib="6" loc="(131,471)" name="Text"/>
+    <comp lib="1" loc="(490,1950)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(220,2670)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="5" loc="(130,110)" name="DotMatrix">
+      <a name="matrixcols" val="6"/>
+      <a name="matrixrows" val="5"/>
+      <a name="offcolor" val="#000000"/>
+    </comp>
+    <comp lib="5" loc="(760,140)" name="DotMatrix">
+      <a name="matrixcols" val="6"/>
+      <a name="matrixrows" val="5"/>
+      <a name="offcolor" val="#000000"/>
+    </comp>
+    <comp lib="6" loc="(1734,603)" name="Text">
+      <a name="text" val="1001"/>
+    </comp>
+    <comp lib="6" loc="(161,353)" name="Text"/>
+    <comp lib="0" loc="(1030,500)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="c"/>
+    </comp>
+    <comp lib="5" loc="(470,770)" name="LED"/>
+    <comp lib="1" loc="(780,1160)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(800,260)" name="Tunnel">
+    <comp lib="1" loc="(630,1240)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(1090,170)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="30"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="2"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="3"/>
+      <a name="bit16" val="3"/>
+      <a name="bit17" val="3"/>
+      <a name="bit18" val="3"/>
+      <a name="bit19" val="3"/>
+      <a name="bit20" val="4"/>
+      <a name="bit21" val="4"/>
+      <a name="bit22" val="4"/>
+      <a name="bit23" val="4"/>
+      <a name="bit24" val="4"/>
+      <a name="bit25" val="5"/>
+      <a name="bit26" val="5"/>
+      <a name="bit27" val="5"/>
+      <a name="bit28" val="5"/>
+      <a name="bit29" val="5"/>
+    </comp>
+    <comp lib="1" loc="(340,1570)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1290,510)" name="Tunnel">
+      <a name="width" val="30"/>
+      <a name="label" val="1"/>
+    </comp>
+    <comp lib="0" loc="(220,2730)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(1748,53)" name="Text">
+      <a name="text" val="0001"/>
+    </comp>
+    <comp lib="1" loc="(480,1010)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="5" loc="(1150,140)" name="DotMatrix">
+      <a name="matrixcols" val="6"/>
+      <a name="matrixrows" val="5"/>
+      <a name="offcolor" val="#000000"/>
+    </comp>
+    <comp lib="0" loc="(220,1750)" name="Clock"/>
+    <comp lib="6" loc="(1516,485)" name="Text">
+      <a name="text" val="0011"/>
+    </comp>
+    <comp lib="0" loc="(430,170)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="30"/>
+      <a name="label" val="1"/>
+    </comp>
+    <comp lib="0" loc="(1060,440)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="20"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="2"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="3"/>
+      <a name="bit16" val="3"/>
+      <a name="bit17" val="3"/>
+      <a name="bit18" val="3"/>
+      <a name="bit19" val="3"/>
+    </comp>
+    <comp lib="6" loc="(504,685)" name="Text">
+      <a name="text" val="Q"/>
+    </comp>
+    <comp lib="1" loc="(490,2060)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(1010,500)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="e5"/>
+    </comp>
+    <comp lib="5" loc="(910,280)" name="Hex Digit Display"/>
+    <comp lib="5" loc="(1490,50)" name="LED"/>
+    <comp lib="6" loc="(1734,584)" name="Text">
+      <a name="text" val="1000"/>
+    </comp>
+    <comp lib="6" loc="(50,358)" name="Text"/>
+    <comp lib="0" loc="(910,170)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="30"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="2"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="3"/>
+      <a name="bit16" val="3"/>
+      <a name="bit17" val="3"/>
+      <a name="bit18" val="3"/>
+      <a name="bit19" val="3"/>
+      <a name="bit20" val="4"/>
+      <a name="bit21" val="4"/>
+      <a name="bit22" val="4"/>
+      <a name="bit23" val="4"/>
+      <a name="bit24" val="4"/>
+      <a name="bit25" val="5"/>
+      <a name="bit26" val="5"/>
+      <a name="bit27" val="5"/>
+      <a name="bit28" val="5"/>
+      <a name="bit29" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1220,440)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="20"/>
+      <a name="label" val="3i"/>
+    </comp>
+    <comp lib="1" loc="(560,2720)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(1230,500)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="width" val="16"/>
+      <a name="label" val="d2"/>
+    </comp>
+    <comp lib="5" loc="(1480,640)" name="LED"/>
+    <comp lib="0" loc="(1290,610)" name="Tunnel">
+      <a name="width" val="30"/>
+      <a name="label" val="6"/>
+    </comp>
+    <comp lib="1" loc="(630,1150)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="5" loc="(1480,660)" name="LED"/>
+    <comp lib="5" loc="(1490,290)" name="LED"/>
+    <comp lib="0" loc="(1070,500)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="width" val="4"/>
+      <a name="label" val="n2"/>
+    </comp>
+    <comp lib="5" loc="(1490,150)" name="LED"/>
+    <comp lib="1" loc="(340,770)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(720,2310)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(220,660)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(293,223)" name="Text">
+      <a name="text" val="F2:"/>
+      <a name="font" val="SansSerif bold 26"/>
+    </comp>
+    <comp lib="0" loc="(20,260)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="16"/>
+      <a name="label" val="d1"/>
+    </comp>
+    <comp lib="5" loc="(1030,1230)" name="LED"/>
+    <comp lib="6" loc="(1736,665)" name="Text">
+      <a name="text" val="1100"/>
+    </comp>
+    <comp lib="6" loc="(485,45)" name="Text">
+      <a name="text" val="Студент"/>
+      <a name="font" val="Times New Roman bold 44"/>
+    </comp>
+    <comp lib="0" loc="(1270,500)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="width" val="16"/>
       <a name="label" val="d4"/>
+    </comp>
+    <comp lib="6" loc="(186,1424)" name="Text">
+      <a name="text" val="D"/>
+    </comp>
+    <comp lib="6" loc="(1413,15)" name="Text">
+      <a name="text" val="Ошибки в F3"/>
+      <a name="font" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="0" loc="(1180,170)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="30"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="2"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="3"/>
+      <a name="bit16" val="3"/>
+      <a name="bit17" val="3"/>
+      <a name="bit18" val="3"/>
+      <a name="bit19" val="3"/>
+      <a name="bit20" val="4"/>
+      <a name="bit21" val="4"/>
+      <a name="bit22" val="4"/>
+      <a name="bit23" val="4"/>
+      <a name="bit24" val="4"/>
+      <a name="bit25" val="5"/>
+      <a name="bit26" val="5"/>
+      <a name="bit27" val="5"/>
+      <a name="bit28" val="5"/>
+      <a name="bit29" val="5"/>
+    </comp>
+    <comp lib="6" loc="(1746,191)" name="Text">
+      <a name="text" val="1000"/>
+    </comp>
+    <comp lib="5" loc="(1700,660)" name="LED"/>
+    <comp lib="0" loc="(1140,60)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="4"/>
+      <a name="label" val="n3"/>
+    </comp>
+    <comp lib="6" loc="(1516,565)" name="Text">
+      <a name="text" val="0111"/>
+    </comp>
+    <comp lib="5" loc="(1700,600)" name="LED"/>
+    <comp lib="5" loc="(1480,480)" name="LED"/>
+    <comp lib="5" loc="(1700,720)" name="LED"/>
+    <comp lib="6" loc="(181,605)" name="Text">
+      <a name="text" val="not R"/>
+    </comp>
+    <comp lib="0" loc="(1260,60)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="4"/>
+      <a name="label" val="n0"/>
     </comp>
     <comp lib="5" loc="(250,110)" name="DotMatrix">
       <a name="matrixcols" val="6"/>
       <a name="matrixrows" val="5"/>
       <a name="offcolor" val="#000000"/>
     </comp>
-    <comp lib="5" loc="(1700,500)" name="LED"/>
-    <comp lib="5" loc="(1700,640)" name="LED"/>
-    <comp lib="0" loc="(1260,440)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="20"/>
-      <a name="label" val="2i"/>
+    <comp lib="6" loc="(1236,255)" name="Text">
+      <a name="text" val="Напр.: 0 - сложение"/>
+      <a name="font" val="SansSerif bold 12"/>
     </comp>
+    <comp lib="5" loc="(1140,60)" name="Hex Digit Display"/>
     <comp lib="0" loc="(1260,440)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="4"/>
@@ -3077,77 +3037,278 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit18" val="3"/>
       <a name="bit19" val="3"/>
     </comp>
-    <comp lib="5" loc="(400,140)" name="DotMatrix">
+    <comp lib="0" loc="(610,170)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="30"/>
+      <a name="label" val="4"/>
+    </comp>
+    <comp lib="6" loc="(207,369)" name="Text"/>
+    <comp lib="5" loc="(640,140)" name="DotMatrix">
       <a name="matrixcols" val="6"/>
       <a name="matrixrows" val="5"/>
       <a name="offcolor" val="#000000"/>
     </comp>
-    <comp lib="0" loc="(1090,740)" name="Tunnel">
+    <comp lib="0" loc="(280,260)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="16"/>
+      <a name="label" val="d2"/>
+    </comp>
+    <comp lib="0" loc="(1030,740)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="width" val="4"/>
-      <a name="label" val="n1"/>
+      <a name="label" val="S3"/>
     </comp>
-    <comp lib="6" loc="(1516,485)" name="Text">
-      <a name="text" val="0011"/>
+    <comp lib="6" loc="(1524,194)" name="Text">
+      <a name="text" val="1000"/>
     </comp>
-    <comp lib="5" loc="(1480,700)" name="LED"/>
-    <comp lib="5" loc="(1710,170)" name="LED"/>
-    <comp lib="6" loc="(163,341)" name="Text"/>
-    <comp lib="6" loc="(1748,53)" name="Text">
-      <a name="text" val="0001"/>
+    <comp lib="6" loc="(1523,234)" name="Text">
+      <a name="text" val="1010"/>
     </comp>
-    <comp lib="0" loc="(40,140)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="30"/>
-      <a name="label" val="20"/>
+    <comp lib="5" loc="(1490,210)" name="LED"/>
+    <comp lib="6" loc="(179,1696)" name="Text">
+      <a name="text" val="not S"/>
     </comp>
-    <comp lib="0" loc="(220,1140)" name="Constant"/>
-    <comp lib="6" loc="(1217,149)" name="Text">
-      <a name="text" val="."/>
-      <a name="font" val="SansSerif plain 64"/>
+    <comp lib="0" loc="(220,2800)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
     <comp lib="5" loc="(1700,420)" name="LED"/>
-    <comp lib="1" loc="(340,680)" name="NOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(220,600)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="6" loc="(1515,523)" name="Text">
-      <a name="text" val="0101"/>
-    </comp>
-    <comp lib="1" loc="(630,1240)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="6" loc="(1734,543)" name="Text">
-      <a name="text" val="0110"/>
-    </comp>
-    <comp lib="6" loc="(1403,405)" name="Text">
-      <a name="text" val="Ошибки в F1"/>
-      <a name="font" val="SansSerif bold 14"/>
-    </comp>
-    <comp lib="0" loc="(430,170)" name="Tunnel">
+    <comp lib="0" loc="(670,170)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="width" val="30"/>
-      <a name="label" val="1"/>
+      <a name="label" val="5"/>
     </comp>
-    <comp lib="6" loc="(1736,724)" name="Text">
-      <a name="text" val="1111"/>
+    <comp lib="5" loc="(1220,60)" name="Hex Digit Display"/>
+    <comp lib="0" loc="(220,1110)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(1220,440)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="20"/>
-      <a name="label" val="3i"/>
-    </comp>
-    <comp lib="0" loc="(1010,500)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="e5"/>
-    </comp>
-    <comp lib="0" loc="(1050,740)" name="Tunnel">
+    <comp lib="5" loc="(1710,210)" name="LED"/>
+    <comp lib="0" loc="(1110,740)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="width" val="4"/>
-      <a name="label" val="n4"/>
+      <a name="label" val="n0"/>
+    </comp>
+    <comp lib="6" loc="(1747,72)" name="Text">
+      <a name="text" val="0010"/>
+    </comp>
+    <comp lib="0" loc="(430,170)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="30"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="2"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="3"/>
+      <a name="bit16" val="3"/>
+      <a name="bit17" val="3"/>
+      <a name="bit18" val="3"/>
+      <a name="bit19" val="3"/>
+      <a name="bit20" val="4"/>
+      <a name="bit21" val="4"/>
+      <a name="bit22" val="4"/>
+      <a name="bit23" val="4"/>
+      <a name="bit24" val="4"/>
+      <a name="bit25" val="5"/>
+      <a name="bit26" val="5"/>
+      <a name="bit27" val="5"/>
+      <a name="bit28" val="5"/>
+      <a name="bit29" val="5"/>
+    </comp>
+    <comp lib="6" loc="(181,1944)" name="Text">
+      <a name="text" val="not S"/>
+    </comp>
+    <comp lib="6" loc="(1526,56)" name="Text">
+      <a name="text" val="0001"/>
+    </comp>
+    <comp lib="1" loc="(340,490)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(157,190)" name="Text">
+      <a name="text" val="Исходные данные:"/>
+      <a name="font" val="Times New Roman bold 36"/>
+    </comp>
+    <comp lib="6" loc="(1523,114)" name="Text">
+      <a name="text" val="0100"/>
+    </comp>
+    <comp lib="0" loc="(40,140)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="30"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="2"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="3"/>
+      <a name="bit16" val="3"/>
+      <a name="bit17" val="3"/>
+      <a name="bit18" val="3"/>
+      <a name="bit19" val="3"/>
+      <a name="bit20" val="4"/>
+      <a name="bit21" val="4"/>
+      <a name="bit22" val="4"/>
+      <a name="bit23" val="4"/>
+      <a name="bit24" val="4"/>
+      <a name="bit25" val="5"/>
+      <a name="bit26" val="5"/>
+      <a name="bit27" val="5"/>
+      <a name="bit28" val="5"/>
+      <a name="bit29" val="5"/>
+    </comp>
+    <comp lib="6" loc="(1735,426)" name="Text">
+      <a name="text" val="0000"/>
+    </comp>
+    <comp lib="5" loc="(1480,680)" name="LED"/>
+    <comp lib="5" loc="(1710,310)" name="LED"/>
+    <comp lib="5" loc="(610,280)" name="Hex Digit Display"/>
+    <comp lib="6" loc="(157,329)" name="Text"/>
+    <comp lib="6" loc="(1748,331)" name="Text">
+      <a name="text" val="1111"/>
+    </comp>
+    <comp lib="0" loc="(850,170)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="30"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="2"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="3"/>
+      <a name="bit16" val="3"/>
+      <a name="bit17" val="3"/>
+      <a name="bit18" val="3"/>
+      <a name="bit19" val="3"/>
+      <a name="bit20" val="4"/>
+      <a name="bit21" val="4"/>
+      <a name="bit22" val="4"/>
+      <a name="bit23" val="4"/>
+      <a name="bit24" val="4"/>
+      <a name="bit25" val="5"/>
+      <a name="bit26" val="5"/>
+      <a name="bit27" val="5"/>
+      <a name="bit28" val="5"/>
+      <a name="bit29" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1620,750)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="16"/>
+      <a name="incoming" val="16"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="0" loc="(1400,750)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="16"/>
+      <a name="label" val="e1"/>
+    </comp>
+    <comp lib="6" loc="(182,2614)" name="Text">
+      <a name="text" val="J"/>
+    </comp>
+    <comp lib="0" loc="(930,740)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="4"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(850,170)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="30"/>
+      <a name="label" val="8"/>
+    </comp>
+    <comp lib="5" loc="(1700,500)" name="LED"/>
+    <comp lib="5" loc="(1080,410)" name="DotMatrix">
+      <a name="matrixcols" val="4"/>
+      <a name="matrixrows" val="5"/>
+      <a name="offcolor" val="#000000"/>
+    </comp>
+    <comp lib="1" loc="(340,580)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(480,900)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(163,341)" name="Text"/>
+    <comp lib="5" loc="(1480,440)" name="LED"/>
+    <comp lib="0" loc="(220,1280)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(33,223)" name="Text">
+      <a name="text" val="F1:"/>
+      <a name="font" val="SansSerif bold 26"/>
+    </comp>
+    <comp lib="0" loc="(1630,360)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="16"/>
+      <a name="label" val="e4"/>
+    </comp>
+    <comp lib="5" loc="(1480,720)" name="LED"/>
+    <comp lib="6" loc="(1255,272)" name="Text">
+      <a name="text" val="1 - вычитание"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(1620,810)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="width" val="20"/>
+      <a name="label" val="1i"/>
+    </comp>
+    <comp lib="1" loc="(650,1550)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(938,45)" name="Text">
+      <a name="text" val="Личный код:"/>
+      <a name="font" val="Times New Roman bold 44"/>
+    </comp>
+    <comp lib="5" loc="(720,1800)" name="LED"/>
+    <comp lib="1" loc="(350,1700)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(210,470)" name="Text"/>
+    <comp lib="5" loc="(730,280)" name="Hex Digit Display"/>
+    <comp lib="0" loc="(870,790)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="e5"/>
+    </comp>
+    <comp lib="1" loc="(610,2250)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1290,550)" name="Tunnel">
+      <a name="width" val="30"/>
+      <a name="label" val="3"/>
+    </comp>
+    <comp lib="6" loc="(584,904)" name="Text">
+      <a name="text" val="Q"/>
     </comp>
   </circuit>
 </project>
