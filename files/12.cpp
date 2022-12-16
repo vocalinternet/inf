@@ -1,9 +1,20 @@
 #include <iostream>
-#include <stdlib.h>
-#include <time.h>
-#include <cstdlib>
+#include <cmath>
 #include <algorithm>
+#include <vector>
+#include <stdio.h>
+#include <signal.h>
+#include <string.h>
+#include <string>
+#include <iomanip>
+#include <windows.h>
+#include <unistd.h>
+#include <iostream>
+#include <cstdlib>
+#include <signal.h>
 using namespace std;
+
+
 
 int comp(const void *i, const void *j) { // функция, сортировка матрицы по возрастанию
   return *(int*) i - *(int*) j;
@@ -18,33 +29,34 @@ int funMas(int i, int j, int size) { // функция, для управлен�
 }
 
 int main() {
+  signal (SIGINT, SIG_IGN);
   cout << "Matrix size, 2, 4, 6, 8: "; // ввод размера матрицы
-  int size = 0;
-  while (!(cin >> size and (size == 2 or size == 4 or size == 6 or size == 8))) { // проверка на допустимый размер
-    cout  << "Incorrect matrix size! Matrix size, 2, 4, 6, 8: ";
+  
+  string tempsize;
+  while (!(cin >> tempsize and (tempsize == "2" or tempsize == "4" or tempsize == "6" or tempsize == "8"))) { // проверка на допустимый размер
+    cout  << "\nIncorrect matrix size! Matrix size, 2, 4, 6, 8: ";
     cin.clear();
     cin.ignore(32767, '\n');
   }
-
+  int size = stoi(tempsize);
   int *Matrix = new int[size * size]; // создание матрицы (через указатель)
   int i = 1;
   int j = 1;
   
   cout << "Would you like to enter the numbers yourself? 1 - Yes, 2 - No: "; // выбор, вводить ли значения самостоятельно или автоматически
-  int choice = 0;
-  while (!(cin >> choice and (choice == 1 or choice == 2))) { // проверка на допустимый выбор
-    cout << "Incorrect input! 1 - Yes, 2 - No: ";
+  string choice;
+  while (!(cin >> choice and (choice == "1" or choice == "2"))) { // проверка на допустимый выбор
+    cout << "\nIncorrect input! 1 - Yes, 2 - No: ";
     cin.clear();
     cin.ignore(32767, '\n');
   }
 
-  if (choice == 1) { // ручной ввод значений
+  if (choice == "1") { // ручной ввод значений
     for (int temp = 1; temp < (size * size + 1); temp++) { // ввод до заполнения матрицы
       cout << "Enter a number: ";
       while (!(cin >> Matrix[funMas(i, j, size)] and (Matrix[funMas(i, j, size)] > 0 and Matrix[funMas(i, j, size)] < 101))) { // проверка на допустимое значение
-        cout << "Incorrect number! The number can be from 1 to 100: ";
-        cin.clear();
-        cin.ignore(32767, '\n');
+        cout << "\nIncorrect number!";
+        return 0;
       }
       j++;
       
@@ -54,7 +66,7 @@ int main() {
       }
     }
   }
-  else if (choice == 2) { // автоматический ввод значений
+  else if (choice == "2") { // автоматический ввод значений
       srand(time(NULL));
       for (int i = 1; i <= size; i++) {
           for (int j = 1; j <= size; j++) {
@@ -63,6 +75,8 @@ int main() {
       }
   }
 
+  cout << "--------------------------------" << endl;
+  
   for (int i = 1; i <= size; i++) { // вывод введённой матрицы на экран
     for (int j = 1; j <= size; j++) {
       cout << Matrix[funMas(i, j, size)] << "  ";
@@ -70,7 +84,7 @@ int main() {
     cout << endl;
   }
   
-  cout << "-------------------" << endl;
+  cout << "--------------------------------" << endl;
   
   qsort(Matrix, (size * size), sizeof(int), comp); // сортировка матрицы по возрастанию
   int maxSize = size * size - 1;
